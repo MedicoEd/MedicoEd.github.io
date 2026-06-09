@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Periop Drug Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Periop Drug Grid</h1>
+    <p>Adult perioperative medication reference and patient-specific dose calculator. Starter database only.</p>
+  </div>
+  <div class="top-actions">
+    <button id="exportCsv">Export visible CSV</button>
+    <button id="exportJson">Export database JSON</button>
+    <button id="resetCase">Reset patient</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="patient-panel">
+    <h2>Patient</h2>
+    <div class="form-grid">
+      <label>Age<input id="age" type="number" value="60" min="0" max="120"></label>
+      <label>Sex<select id="sex"><option value="male">male</option><option value="female">female</option></select></label>
+      <label>Height cm<input id="height" type="number" value="178" min="80" max="230"></label>
+      <label>Weight kg<input id="weight" type="number" value="90" min="1" max="350" step="0.1"></label>
+      <label>SCr mg/dL<input id="scr" type="number" value="1.0" min="0.1" max="15" step="0.01"></label>
+      <label>EF %<input id="ef" type="number" value="60" min="5" max="80"></label>
+      <label>Renal status<select id="renal"><option value="normal">normal</option><option value="ckd">CKD</option><option value="esrd">ESRD/HD</option><option value="crrt">CRRT</option></select></label>
+      <label>Hepatic status<select id="hepatic"><option value="normal">normal</option><option value="disease">disease</option><option value="failure">failure</option></select></label>
+    </div>
+    <div class="checks">
+      <label><input id="frail" type="checkbox"> frail/elderly physiology</label>
+      <label><input id="osa" type="checkbox"> OSA/OHS risk</label>
+      <label><input id="pregnant" type="checkbox"> pregnant/OB</label>
+      <label><input id="qt" type="checkbox"> prolonged QT</label>
+      <label><input id="mh" type="checkbox"> MH susceptible</label>
+      <label><input id="shock" type="checkbox"> shock/low-flow</label>
+      <label><input id="neuraxial" type="checkbox"> neuraxial planned</label>
+    </div>
+    <h2>Calculated scalars</h2>
+    <div id="metrics" class="metrics"></div>
+    <div id="caseWarnings" class="case-warnings"></div>
+  </aside>
+
+  <section class="workspace">
+    <section class="filters">
+      <label>Search<input id="search" placeholder="propofol, pressor, QT, renal, induction..."></label>
+      <label>Class<select id="category"><option value="all">all classes</option></select></label>
+      <label>Display<select id="displayMode"><option value="all">all meds</option><option value="flagged">flagged only</option><option value="weight">weight based only</option><option value="fixed">fixed only</option><option value="audit">needs source audit</option></select></label>
+      <label>Weight override<select id="scalarOverride"><option value="asWritten">as written</option><option value="ABW">ABW</option><option value="IBW">IBW</option><option value="LBW">LBW</option><option value="AdjBW">AdjBW</option></select></label>
+      <button id="clearFilters">Clear filters</button>
+    </section>
+
+    <section class="class-tabs" id="classTabs"></section>
+
+    <section class="summary-strip">
+      <div><strong id="visibleCount">0</strong><span> visible</span></div>
+      <div><strong id="totalCount">0</strong><span> total meds</span></div>
+      <div><strong id="flagCount">0</strong><span> flagged</span></div>
+    </section>
+
+    <div class="table-wrap">
+      <table id="drugTable">
+        <thead>
+          <tr>
+            <th class="pin1">#</th>
+            <th class="pin2">Drug</th>
+            <th>Class</th>
+            <th>Use</th>
+            <th>MOA</th>
+            <th>Route</th>
+            <th>General dose</th>
+            <th>Scalar</th>
+            <th>Patient dose</th>
+            <th>Math</th>
+            <th>Flags</th>
+            <th>Cautions</th>
+            <th>Contraindications</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<div id="drawer" class="drawer hidden">
+  <div class="drawer-card">
+    <button id="closeDrawer" class="close">Close</button>
+    <div id="drawerContent"></div>
+  </div>
+</div>
+
+<footer>
+  Prototype for educational and reference use. Not validated for clinical administration. Verify all doses against Miller, package insert, institutional policy, and patient-specific factors.
+</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
