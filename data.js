@@ -33,7 +33,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of inactive metabolites.",
     "duration": "Bolus hypnosis about 5-10 min; context-sensitive recovery increases with infusion duration.",
     "obesityConsiderations": "Dose on LBW or adjusted strategy in obesity; avoid ABW boluses in severe obesity. Titrate to effect, especially with low-flow states.",
-    "pediatricDosing": "Peds: induction 2-3 mg/kg IV; sedation/infusion institution-specific, commonly titrated 50-200 mcg/kg/min. Reduce in hemodynamic instability."
+    "pediatricDosing": "Peds: induction 2-3 mg/kg IV; sedation/infusion institution-specific, commonly titrated 50-200 mcg/kg/min. Reduce in hemodynamic instability.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset: 30-45 sec; peak effect: 90-100 sec; duration: 3-10 min after bolus, context-sensitive with infusion.",
+    "timingSummary": "Onset: 30-45 sec; peak effect: 90-100 sec; duration: 3-10 min after bolus, context-sensitive with infusion. Duration: Bolus hypnosis about 5-10 min; context-sensitive recovery increases with infusion duration.",
+    "metabolismElimination": "Hepatic conjugation and extrahepatic clearance; inactive metabolites. | Renal excretion of inactive metabolites."
   },
   {
     "name": "Etomidate",
@@ -69,7 +74,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Urinary and biliary inactive metabolites.",
     "duration": "Hypnosis about 3-5 min after induction dose.",
     "obesityConsiderations": "ABW often acceptable, but use small titrated boluses in severe obesity or shock.",
-    "pediatricDosing": "Peds: induction 0.2-0.3 mg/kg IV. Audit adrenal-risk policy."
+    "pediatricDosing": "Peds: induction 0.2-0.3 mg/kg IV. Audit adrenal-risk policy.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset: 30-60 sec; peak: 1 min; duration: 3-10 min.",
+    "timingSummary": "Onset: 30-60 sec; peak: 1 min; duration: 3-10 min. Duration: Hypnosis about 3-5 min after induction dose.",
+    "metabolismElimination": "Hepatic and plasma esterase hydrolysis. | Urinary and biliary inactive metabolites."
   },
   {
     "name": "Ketamine",
@@ -106,7 +116,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "IV bolus dissociation about 5-10 min; analgesic effect may last longer.",
     "obesityConsiderations": "Prefer IBW or AdjBW for bolus in obesity; titrate because sympathetic response and emergence effects vary.",
-    "pediatricDosing": "Peds: induction 1-2 mg/kg IV or 4-6 mg/kg IM; analgesia 0.1-0.3 mg/kg IV. Consider secretion management."
+    "pediatricDosing": "Peds: induction 1-2 mg/kg IV or 4-6 mg/kg IM; analgesia 0.1-0.3 mg/kg IV. Consider secretion management.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 30-60 sec, IM: 3-5 min; peak IV: 1-2 min; duration IV: 5-15 min, longer IM.",
+    "timingSummary": "Onset IV: 30-60 sec, IM: 3-5 min; peak IV: 1-2 min; duration IV: 5-15 min, longer IM. Duration: IV bolus dissociation about 5-10 min; analgesic effect may last longer.",
+    "metabolismElimination": "Hepatic CYP metabolism to norketamine. | Renal excretion of metabolites."
   },
   {
     "name": "Midazolam",
@@ -142,7 +157,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of conjugated metabolites; accumulation in renal dysfunction.",
     "duration": "IV anxiolysis/sedation about 15-60 min; longer after repeated dosing.",
     "obesityConsiderations": "Use reduced incremental dosing in obesity, OSA, frailty, and renal dysfunction.",
-    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; common max single dose 2 mg for anxiolysis in many settings. PO premed often 0.25-0.5 mg/kg."
+    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; common max single dose 2 mg for anxiolysis in many settings. PO premed often 0.25-0.5 mg/kg.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1-3 min; peak: 3-5 min; duration: 15-60 min, longer in elderly/critical illness.",
+    "timingSummary": "Onset IV: 1-3 min; peak: 3-5 min; duration: 15-60 min, longer in elderly/critical illness. Duration: IV anxiolysis/sedation about 15-60 min; longer after repeated dosing.",
+    "metabolismElimination": "Hepatic CYP3A to active hydroxylated metabolites. | Renal excretion of conjugated metabolites; accumulation in renal dysfunction."
   },
   {
     "name": "Dexmedetomidine",
@@ -179,7 +199,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Urinary excretion of metabolites.",
     "duration": "Distribution half-life minutes; terminal half-life about 2 hr; sedative effect persists after infusion.",
     "obesityConsiderations": "Dose using IBW/AdjBW strategy in obesity; avoid large loading doses if bradycardic or low-flow.",
-    "pediatricDosing": "Peds: infusion often 0.2-0.7 mcg/kg/hr titrated; loading dose varies and may cause bradycardia/hypotension."
+    "pediatricDosing": "Peds: infusion often 0.2-0.7 mcg/kg/hr titrated; loading dose varies and may cause bradycardia/hypotension.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset: 5-10 min; peak: 15-30 min after load; context-sensitive sedative effect during infusion.",
+    "timingSummary": "Onset: 5-10 min; peak: 15-30 min after load; context-sensitive sedative effect during infusion. Duration: Distribution half-life minutes; terminal half-life about 2 hr; sedative effect persists after infusion.",
+    "metabolismElimination": "Extensive hepatic glucuronidation and CYP metabolism. | Urinary excretion of metabolites."
   },
   {
     "name": "Thiopental",
@@ -214,7 +239,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Mostly renal/biliary metabolites.",
     "duration": "Short bolus effect; longer after infusion or repeated dosing.",
     "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing. Duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "metabolismElimination": "Hepatic and/or extrahepatic metabolism depending on agent. | Mostly renal/biliary metabolites."
   },
   {
     "name": "Methohexital",
@@ -249,7 +279,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Mostly renal/biliary metabolites.",
     "duration": "Short bolus effect; longer after infusion or repeated dosing.",
     "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing. Duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "metabolismElimination": "Hepatic and/or extrahepatic metabolism depending on agent. | Mostly renal/biliary metabolites."
   },
   {
     "name": "Fentanyl",
@@ -285,7 +320,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Analgesia about 30-60 min after small bolus; longer with repeated dosing.",
     "obesityConsiderations": "Highly lipophilic; repeated ABW dosing accumulates in adipose. Use LBW/IBW increments and titrate.",
-    "pediatricDosing": "Peds: 1-2 mcg/kg IV bolus titrated; higher anesthetic doses are case-specific."
+    "pediatricDosing": "Peds: 1-2 mcg/kg IV bolus titrated; higher anesthetic doses are case-specific.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1-2 min; peak analgesic/respiratory effect: 3-5 min; duration: 30-60 min after small bolus.",
+    "timingSummary": "Onset IV: 1-2 min; peak analgesic/respiratory effect: 3-5 min; duration: 30-60 min after small bolus. Duration: Analgesia about 30-60 min after small bolus; longer with repeated dosing.",
+    "metabolismElimination": "Hepatic CYP3A metabolism to inactive metabolites. | Renal excretion of metabolites."
   },
   {
     "name": "Sufentanil",
@@ -320,7 +360,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1-3 min; peak: 3-6 min; duration: 20-45 min depending dose.",
+    "timingSummary": "Onset IV: 1-3 min; peak: 3-6 min; duration: 20-45 min depending dose. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "name": "Remifentanil",
@@ -357,7 +402,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of inactive metabolite.",
     "duration": "Offset 3-10 min, largely context independent.",
     "obesityConsiderations": "Often dosed to LBW or adjusted weight in obesity; titrate to respiratory/hemodynamic effect.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset: about 1 min; peak: 1-3 min; duration: 3-10 min, rapid offset independent of infusion duration.",
+    "timingSummary": "Onset: about 1 min; peak: 1-3 min; duration: 3-10 min, rapid offset independent of infusion duration. Duration: Offset 3-10 min, largely context independent.",
+    "metabolismElimination": "Rapid nonspecific plasma and tissue esterase metabolism. | Renal excretion of inactive metabolite."
   },
   {
     "name": "Alfentanil",
@@ -392,7 +442,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "name": "Morphine",
@@ -428,7 +483,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion; active metabolite accumulation in CKD.",
     "duration": "IV analgesia about 3-4 hr; longer in renal dysfunction.",
     "obesityConsiderations": "Use conservative dosing in obesity/OSA; avoid ABW loading without monitoring.",
-    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; reduce with OSA, neonates, renal dysfunction."
+    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; reduce with OSA, neonates, renal dysfunction.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 5 min; peak: 15-30 min; duration: 3-4 hr.",
+    "timingSummary": "Onset IV: 5 min; peak: 15-30 min; duration: 3-4 hr. Duration: IV analgesia about 3-4 hr; longer in renal dysfunction.",
+    "metabolismElimination": "Hepatic glucuronidation to active M6G and M3G. | Renal excretion; active metabolite accumulation in CKD."
   },
   {
     "name": "Hydromorphone",
@@ -464,7 +524,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion; neuroexcitatory metabolite accumulation possible in CKD.",
     "duration": "IV analgesia about 2-4 hr.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA.",
-    "pediatricDosing": "Peds: 0.005-0.015 mg/kg IV titrated; institution-specific."
+    "pediatricDosing": "Peds: 0.005-0.015 mg/kg IV titrated; institution-specific.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 5 min; peak: 10-20 min; duration: 2-4 hr.",
+    "timingSummary": "Onset IV: 5 min; peak: 10-20 min; duration: 2-4 hr. Duration: IV analgesia about 2-4 hr.",
+    "metabolismElimination": "Hepatic glucuronidation to H3G. | Renal excretion; neuroexcitatory metabolite accumulation possible in CKD."
   },
   {
     "name": "Methadone",
@@ -499,7 +564,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Fecal and renal excretion.",
     "duration": "Analgesia 4-8 hr, but elimination half-life much longer.",
     "obesityConsiderations": "Dose conservatively in obesity/OSA; QT and delayed respiratory depression require caution.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: minutes; peak respiratory/CNS effect delayed; analgesic duration often 6-12+ hr with long variable half-life.",
+    "timingSummary": "Onset IV: minutes; peak respiratory/CNS effect delayed; analgesic duration often 6-12+ hr with long variable half-life. Duration: Analgesia 4-8 hr, but elimination half-life much longer.",
+    "metabolismElimination": "Hepatic CYP metabolism; variable half-life. | Fecal and renal excretion."
   },
   {
     "name": "Meperidine",
@@ -535,7 +605,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "name": "Oxycodone",
@@ -571,7 +646,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "name": "Tramadol",
@@ -607,7 +687,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "name": "Acetaminophen",
@@ -643,7 +728,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Analgesia/antipyresis about 4-6 hr.",
     "obesityConsiderations": "Use capped total daily dose; consider lower max with liver disease, chronic alcohol use, low body weight.",
-    "pediatricDosing": "Peds: 10-15 mg/kg PO/IV q6h, max daily dose per age/weight and institutional policy."
+    "pediatricDosing": "Peds: 10-15 mg/kg PO/IV q6h, max daily dose per age/weight and institutional policy.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Analgesia/antipyresis about 4-6 hr.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Analgesia/antipyresis about 4-6 hr. Duration: Analgesia/antipyresis about 4-6 hr.",
+    "metabolismElimination": "Hepatic glucuronidation/sulfation; minor CYP to NAPQI. | Renal excretion of metabolites."
   },
   {
     "name": "Ketorolac",
@@ -679,7 +769,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion; avoid/significantly reduce in renal dysfunction.",
     "duration": "Analgesia about 4-6 hr.",
     "obesityConsiderations": "Use capped fixed dosing; avoid ABW escalation in obesity.",
-    "pediatricDosing": "Peds: 0.5 mg/kg IV q6h, common max 15-30 mg; avoid renal dysfunction/bleeding risk."
+    "pediatricDosing": "Peds: 0.5 mg/kg IV q6h, common max 15-30 mg; avoid renal dysfunction/bleeding risk.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset IV/IM: 10-30 min; peak: 1-2 hr; duration: 4-6 hr.",
+    "timingSummary": "Onset IV/IM: 10-30 min; peak: 1-2 hr; duration: 4-6 hr. Duration: Analgesia about 4-6 hr.",
+    "metabolismElimination": "Hepatic metabolism. | Renal excretion; avoid/significantly reduce in renal dysfunction."
   },
   {
     "name": "Ibuprofen",
@@ -715,7 +810,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several agents.",
     "duration": "Hours depending on agent.",
     "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
-    "pediatricDosing": "Peds: 10 mg/kg PO q6-8h, max per protocol."
+    "pediatricDosing": "Peds: 10 mg/kg PO q6-8h, max per protocol.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent. Duration: Hours depending on agent.",
+    "metabolismElimination": "Agent-specific hepatic or renal handling. | Renal excretion important for several agents."
   },
   {
     "name": "Gabapentin",
@@ -750,7 +850,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several agents.",
     "duration": "Hours depending on agent.",
     "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent. Duration: Hours depending on agent.",
+    "metabolismElimination": "Agent-specific hepatic or renal handling. | Renal excretion important for several agents."
   },
   {
     "name": "Lidocaine IV",
@@ -786,7 +891,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several agents.",
     "duration": "Hours depending on agent.",
     "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours depending on agent. Duration: Hours depending on agent.",
+    "metabolismElimination": "Agent-specific hepatic or renal handling. | Renal excretion important for several agents."
   },
   {
     "name": "Succinylcholine",
@@ -823,7 +933,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Minimal renal excretion of parent drug.",
     "duration": "Paralysis usually 5-10 min if normal pseudocholinesterase.",
     "obesityConsiderations": "Often dosed on TBW/ABW for RSI in obesity to ensure intubating conditions; verify local practice.",
-    "pediatricDosing": "Peds: 1-2 mg/kg IV; IM 3-4 mg/kg for emergency airway when IV unavailable. Avoid in myopathy/burn/denervation/MH risk."
+    "pediatricDosing": "Peds: 1-2 mg/kg IV; IM 3-4 mg/kg for emergency airway when IV unavailable. Avoid in myopathy/burn/denervation/MH risk.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset: 30-60 sec; peak: about 1 min; duration: 5-10 min.",
+    "timingSummary": "Onset: 30-60 sec; peak: about 1 min; duration: 5-10 min. Duration: Paralysis usually 5-10 min if normal pseudocholinesterase.",
+    "metabolismElimination": "Rapid pseudocholinesterase hydrolysis in plasma. | Minimal renal excretion of parent drug."
   },
   {
     "name": "Rocuronium",
@@ -860,7 +975,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Some renal excretion; duration prolonged in hepatic/renal dysfunction.",
     "duration": "Intermediate duration about 30-60 min, dose dependent.",
     "obesityConsiderations": "Intubating dose often IBW/AdjBW or ABW depending RSI goal; maintenance should be TOF-guided.",
-    "pediatricDosing": "Peds: 0.6-1.2 mg/kg IV for intubation depending on urgency."
+    "pediatricDosing": "Peds: 0.6-1.2 mg/kg IV for intubation depending on urgency.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset: 45-90 sec depending dose; peak: 1-3 min; duration: 20-60 min dose dependent.",
+    "timingSummary": "Onset: 45-90 sec depending dose; peak: 1-3 min; duration: 20-60 min dose dependent. Duration: Intermediate duration about 30-60 min, dose dependent.",
+    "metabolismElimination": "Hepatic uptake and biliary excretion; limited metabolism. | Some renal excretion; duration prolonged in hepatic/renal dysfunction."
   },
   {
     "name": "Vecuronium",
@@ -896,7 +1016,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Biliary and renal excretion; prolonged in hepatic/renal disease.",
     "duration": "Intermediate duration about 30-45 min; may prolong with accumulation.",
     "obesityConsiderations": "Dose to IBW/AdjBW and TOF; avoid repeated unguided dosing in obesity/CKD.",
-    "pediatricDosing": "Peds: 0.1 mg/kg IV; monitor TOF."
+    "pediatricDosing": "Peds: 0.1 mg/kg IV; monitor TOF.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset: 2-3 min; peak: 3-5 min; duration: 30-60 min.",
+    "timingSummary": "Onset: 2-3 min; peak: 3-5 min; duration: 30-60 min. Duration: Intermediate duration about 30-45 min; may prolong with accumulation.",
+    "metabolismElimination": "Hepatic metabolism to active metabolite. | Biliary and renal excretion; prolonged in hepatic/renal disease."
   },
   {
     "name": "Cisatracurium",
@@ -933,7 +1058,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolites renally/hepatically cleared but parent largely organ independent.",
     "duration": "Intermediate duration about 30-45 min.",
     "obesityConsiderations": "Useful in obesity with organ dysfunction; dose to IBW/AdjBW and monitor TOF.",
-    "pediatricDosing": "Peds: 0.1-0.2 mg/kg IV; monitor TOF."
+    "pediatricDosing": "Peds: 0.1-0.2 mg/kg IV; monitor TOF.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset: 2-3 min; peak: 3-5 min; duration: 30-60 min.",
+    "timingSummary": "Onset: 2-3 min; peak: 3-5 min; duration: 30-60 min. Duration: Intermediate duration about 30-45 min.",
+    "metabolismElimination": "Organ-independent Hofmann elimination and ester hydrolysis. | Metabolites renally/hepatically cleared but parent largely organ independent."
   },
   {
     "name": "Atracurium",
@@ -969,7 +1099,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific renal/biliary/metabolite excretion.",
     "duration": "Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
     "obesityConsiderations": "Use intubating-dose strategy deliberately; maintenance and redosing should be neuromuscular-monitor guided.",
-    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference."
+    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Succinylcholine short; nondepolarizers intermediate to long, TOF dependent. Duration: Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
+    "metabolismElimination": "Agent-specific: plasma cholinesterase, hepatic/biliary, renal, or Hofmann elimination. | Agent-specific renal/biliary/metabolite excretion."
   },
   {
     "name": "Pancuronium",
@@ -1005,7 +1140,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific renal/biliary/metabolite excretion.",
     "duration": "Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
     "obesityConsiderations": "Use intubating-dose strategy deliberately; maintenance and redosing should be neuromuscular-monitor guided.",
-    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference."
+    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset: 2-3 min; peak: 3-5 min; duration: 60-120 min.",
+    "timingSummary": "Onset: 2-3 min; peak: 3-5 min; duration: 60-120 min. Duration: Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
+    "metabolismElimination": "Agent-specific: plasma cholinesterase, hepatic/biliary, renal, or Hofmann elimination. | Agent-specific renal/biliary/metabolite excretion."
   },
   {
     "name": "Neostigmine",
@@ -1042,7 +1182,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion; duration prolonged in renal dysfunction.",
     "duration": "Reversal effect about 30-60 min.",
     "obesityConsiderations": "Dose to actual or adjusted weight per institutional practice; ceiling dose commonly applied.",
-    "pediatricDosing": "Peds: 0.03-0.07 mg/kg IV with anticholinergic; ceiling dose per institution."
+    "pediatricDosing": "Peds: 0.03-0.07 mg/kg IV with anticholinergic; ceiling dose per institution.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Reversal effect about 30-60 min.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Reversal effect about 30-60 min. Duration: Reversal effect about 30-60 min.",
+    "metabolismElimination": "Partly hepatic metabolism. | Renal excretion; duration prolonged in renal dysfunction."
   },
   {
     "name": "Glycopyrrolate",
@@ -1079,7 +1224,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion contributes to clearance.",
     "duration": "Anticholinergic effect about 2-4 hr.",
     "obesityConsiderations": "Use with caution in obesity if tachycardia/ischemia risk; dose with neostigmine ratio.",
-    "pediatricDosing": "Peds: 0.004-0.01 mg/kg IV, often paired with neostigmine."
+    "pediatricDosing": "Peds: 0.004-0.01 mg/kg IV, often paired with neostigmine.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Anticholinergic effect about 2-4 hr.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Anticholinergic effect about 2-4 hr. Duration: Anticholinergic effect about 2-4 hr.",
+    "metabolismElimination": "Minimal CNS penetration; partly hepatic metabolism. | Renal excretion contributes to clearance."
   },
   {
     "name": "Sugammadex",
@@ -1116,7 +1266,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of sugammadex-NMBA complex.",
     "duration": "Reversal usually within minutes.",
     "obesityConsiderations": "Dose based on actual body weight in many protocols, especially urgent reversal; renal dysfunction requires caution.",
-    "pediatricDosing": "Peds: 2 mg/kg for moderate block, 4 mg/kg for deep block, 16 mg/kg for immediate reversal after high-dose rocuronium; verify age approval/policy."
+    "pediatricDosing": "Peds: 2 mg/kg for moderate block, 4 mg/kg for deep block, 16 mg/kg for immediate reversal after high-dose rocuronium; verify age approval/policy.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Reversal usually within minutes.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Reversal usually within minutes. Duration: Reversal usually within minutes.",
+    "metabolismElimination": "Encapsulates aminosteroid NMBs; not metabolized significantly. | Renal excretion of sugammadex-NMBA complex."
   },
   {
     "name": "Phenylephrine",
@@ -1153,7 +1308,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Urinary excretion of metabolites.",
     "duration": "Bolus effect minutes; infusion titratable.",
     "obesityConsiderations": "Use titrated boluses; fixed boluses may overshoot in small/frail patients but obesity does not require proportional ABW scaling.",
-    "pediatricDosing": "Peds: 1-5 mcg/kg IV bolus or infusion titrated; institutional concentration critical."
+    "pediatricDosing": "Peds: 1-5 mcg/kg IV bolus or infusion titrated; institutional concentration critical.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: immediate; peak: 1-2 min; duration: 5-20 min bolus.",
+    "timingSummary": "Onset IV: immediate; peak: 1-2 min; duration: 5-20 min bolus. Duration: Bolus effect minutes; infusion titratable.",
+    "metabolismElimination": "MAO and sulfotransferase metabolism. | Urinary excretion of metabolites."
   },
   {
     "name": "Ephedrine",
@@ -1190,7 +1350,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies.",
     "duration": "Generally immediate onset and short titratable duration.",
     "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
-    "pediatricDosing": "Peds: 0.1 mg/kg IV titrated."
+    "pediatricDosing": "Peds: 0.1 mg/kg IV titrated.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1 min; peak: 2-5 min; duration: 10-60 min.",
+    "timingSummary": "Onset IV: 1 min; peak: 2-5 min; duration: 10-60 min. Duration: Generally immediate onset and short titratable duration.",
+    "metabolismElimination": "Rapid enzymatic metabolism or organ clearance depending on agent. | Metabolite excretion varies."
   },
   {
     "name": "Norepinephrine",
@@ -1227,7 +1392,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Urinary excretion of metabolites.",
     "duration": "Immediate titratable effect; offset within minutes.",
     "obesityConsiderations": "Infusions often ordered mcg/kg/min but clinical titration and institutional concentration matter more than exact obesity scalar.",
-    "pediatricDosing": "Peds: infusion commonly 0.02-1 mcg/kg/min titrated to perfusion target."
+    "pediatricDosing": "Peds: infusion commonly 0.02-1 mcg/kg/min titrated to perfusion target.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset: immediate to 1-2 min; peak: minutes; duration: 1-2 min after stopping infusion.",
+    "timingSummary": "Onset: immediate to 1-2 min; peak: minutes; duration: 1-2 min after stopping infusion. Duration: Immediate titratable effect; offset within minutes.",
+    "metabolismElimination": "COMT and MAO metabolism. | Urinary excretion of metabolites."
   },
   {
     "name": "Epinephrine",
@@ -1264,7 +1434,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Urinary excretion of metabolites.",
     "duration": "Immediate titratable effect; bolus duration minutes.",
     "obesityConsiderations": "Use indication-specific dosing; avoid simple ABW extrapolation for bolus rescue outside protocols.",
-    "pediatricDosing": "Peds: arrest dose 0.01 mg/kg IV of 0.1 mg/mL solution; pressor/inotrope infusion titrated per protocol."
+    "pediatricDosing": "Peds: arrest dose 0.01 mg/kg IV of 0.1 mg/mL solution; pressor/inotrope infusion titrated per protocol.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: immediate; peak: minutes; duration short, titratable.",
+    "timingSummary": "Onset IV: immediate; peak: minutes; duration short, titratable. Duration: Immediate titratable effect; bolus duration minutes.",
+    "metabolismElimination": "COMT and MAO metabolism. | Urinary excretion of metabolites."
   },
   {
     "name": "Vasopressin",
@@ -1301,7 +1476,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Limited renal excretion of intact drug.",
     "duration": "Pressor effect minutes; half-life about 10-20 min.",
     "obesityConsiderations": "Usually fixed-unit dosing; no obesity scalar required.",
-    "pediatricDosing": "Peds: use institutional critical-care/anesthesia protocol; less standardized."
+    "pediatricDosing": "Peds: use institutional critical-care/anesthesia protocol; less standardized.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: minutes; peak: minutes; duration: 30-60 min after bolus possible.",
+    "timingSummary": "Onset IV: minutes; peak: minutes; duration: 30-60 min after bolus possible. Duration: Pressor effect minutes; half-life about 10-20 min.",
+    "metabolismElimination": "Peptidase metabolism in liver/kidney and other tissues. | Limited renal excretion of intact drug."
   },
   {
     "name": "Dopamine",
@@ -1337,7 +1517,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies.",
     "duration": "Generally immediate onset and short titratable duration.",
     "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
-    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration. Duration: Generally immediate onset and short titratable duration.",
+    "metabolismElimination": "Rapid enzymatic metabolism or organ clearance depending on agent. | Metabolite excretion varies."
   },
   {
     "name": "Dobutamine",
@@ -1373,7 +1558,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies.",
     "duration": "Generally immediate onset and short titratable duration.",
     "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
-    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration. Duration: Generally immediate onset and short titratable duration.",
+    "metabolismElimination": "Rapid enzymatic metabolism or organ clearance depending on agent. | Metabolite excretion varies."
   },
   {
     "name": "Milrinone",
@@ -1409,7 +1599,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies.",
     "duration": "Generally immediate onset and short titratable duration.",
     "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
-    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration. Duration: Generally immediate onset and short titratable duration.",
+    "metabolismElimination": "Rapid enzymatic metabolism or organ clearance depending on agent. | Metabolite excretion varies."
   },
   {
     "name": "Isoproterenol",
@@ -1445,7 +1640,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies.",
     "duration": "Generally immediate onset and short titratable duration.",
     "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
-    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Generally immediate onset and short titratable duration. Duration: Generally immediate onset and short titratable duration.",
+    "metabolismElimination": "Rapid enzymatic metabolism or organ clearance depending on agent. | Metabolite excretion varies."
   },
   {
     "name": "Esmolol",
@@ -1482,7 +1682,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset: 1-2 min; peak: 5 min; duration: 10-20 min.",
+    "timingSummary": "Onset: 1-2 min; peak: 5 min; duration: 10-20 min. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Labetalol",
@@ -1519,7 +1724,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset: 2-5 min; peak: 5-15 min; duration: 2-4 hr.",
+    "timingSummary": "Onset: 2-5 min; peak: 5-15 min; duration: 2-4 hr. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Metoprolol",
@@ -1555,7 +1765,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Propranolol",
@@ -1591,7 +1806,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Nicardipine",
@@ -1628,7 +1848,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1-2 min bolus, 5-15 min infusion titration; duration: 30-60+ min.",
+    "timingSummary": "Onset IV: 1-2 min bolus, 5-15 min infusion titration; duration: 30-60+ min. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Clevidipine",
@@ -1664,7 +1889,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Nitroglycerin",
@@ -1701,7 +1931,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Nitroprusside",
@@ -1737,7 +1972,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Hydralazine",
@@ -1773,7 +2013,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Adenosine",
@@ -1809,7 +2054,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Amiodarone",
@@ -1845,7 +2095,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Diltiazem",
@@ -1881,7 +2136,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Verapamil",
@@ -1917,7 +2177,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "name": "Atropine",
@@ -1953,7 +2218,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: 0.02 mg/kg IV, minimum 0.1 mg, max single dose 0.5 mg child or 1 mg adolescent in many PALS-style protocols."
+    "pediatricDosing": "Peds: 0.02 mg/kg IV, minimum 0.1 mg, max single dose 0.5 mg child or 1 mg adolescent in many PALS-style protocols.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Ondansetron",
@@ -1989,7 +2259,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal and fecal metabolites.",
     "duration": "Antiemetic effect several hours.",
     "obesityConsiderations": "Fixed adult dose; no obesity adjustment. QT caution.",
-    "pediatricDosing": "Peds: 0.1 mg/kg IV, common max 4 mg."
+    "pediatricDosing": "Peds: 0.1 mg/kg IV, common max 4 mg.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset: minutes; peak: variable; duration: 4-8 hr.",
+    "timingSummary": "Onset: minutes; peak: variable; duration: 4-8 hr. Duration: Antiemetic effect several hours.",
+    "metabolismElimination": "Hepatic CYP metabolism. | Renal and fecal metabolites."
   },
   {
     "name": "Dexamethasone",
@@ -2025,7 +2300,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Biologic duration 36-72 hr.",
     "obesityConsiderations": "Fixed antiemetic dose; consider hyperglycemia and infection risk rather than obesity scalar.",
-    "pediatricDosing": "Peds: PONV 0.15 mg/kg IV, common max 4-8 mg depending protocol; airway edema doses differ."
+    "pediatricDosing": "Peds: PONV 0.15 mg/kg IV, common max 4-8 mg depending protocol; airway edema doses differ.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset antiemetic: delayed, often 1-2 hr; peak: hours; duration: prolonged, 24-72 hr biologic effect.",
+    "timingSummary": "Onset antiemetic: delayed, often 1-2 hr; peak: hours; duration: prolonged, 24-72 hr biologic effect. Duration: Biologic duration 36-72 hr.",
+    "metabolismElimination": "Hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Droperidol",
@@ -2061,7 +2341,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset: 3-10 min; peak: 30 min; duration: 2-4 hr.",
+    "timingSummary": "Onset: 3-10 min; peak: 30 min; duration: 2-4 hr. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Haloperidol",
@@ -2096,7 +2381,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Metoclopramide",
@@ -2132,7 +2422,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: 0.1-0.15 mg/kg IV; avoid in high EPS risk."
+    "pediatricDosing": "Peds: 0.1-0.15 mg/kg IV; avoid in high EPS risk.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 1-3 min; peak: minutes; duration: 1-2 hr.",
+    "timingSummary": "Onset IV: 1-3 min; peak: minutes; duration: 1-2 hr. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Prochlorperazine",
@@ -2167,7 +2462,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Promethazine",
@@ -2202,7 +2502,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Scopolamine",
@@ -2237,7 +2542,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Famotidine",
@@ -2273,7 +2583,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: 15-30 min; peak: 1-3 hr; duration: 10-12 hr.",
+    "timingSummary": "Onset IV: 15-30 min; peak: 1-3 hr; duration: 10-12 hr. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Pantoprazole",
@@ -2308,7 +2623,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Sodium citrate",
@@ -2344,7 +2664,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Diphenhydramine",
@@ -2380,7 +2705,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal metabolites.",
     "duration": "Several hours for most perioperative antiemetics.",
     "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
-    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings.",
+    "stage": "PONV/aspiration",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Several hours for most perioperative antiemetics. Duration: Several hours for most perioperative antiemetics.",
+    "metabolismElimination": "Mostly hepatic metabolism with agent-specific exceptions. | Renal/fecal metabolites."
   },
   {
     "name": "Albuterol",
@@ -2417,7 +2747,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: nebulized 2.5 mg typical, smaller infants/children may use 1.25 mg; titrate to bronchospasm."
+    "pediatricDosing": "Peds: nebulized 2.5 mg typical, smaller infants/children may use 1.25 mg; titrate to bronchospasm.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "name": "Ipratropium",
@@ -2453,7 +2788,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "name": "Magnesium sulfate",
@@ -2490,7 +2830,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: 25-50 mg/kg IV for torsades/status asthmaticus/eclampsia-type indications, max varies."
+    "pediatricDosing": "Peds: 25-50 mg/kg IV for torsades/status asthmaticus/eclampsia-type indications, max varies.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: immediate-minutes; peak: variable; duration depends on dose and renal function.",
+    "timingSummary": "Onset IV: immediate-minutes; peak: variable; duration depends on dose and renal function. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Calcium chloride",
@@ -2527,7 +2872,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: 10-20 mg/kg IV for severe hypocalcemia/hyperkalemia/arrest protocol; central line preferred."
+    "pediatricDosing": "Peds: 10-20 mg/kg IV for severe hypocalcemia/hyperkalemia/arrest protocol; central line preferred.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset: immediate; peak: minutes; duration depends on physiology and ongoing losses.",
+    "timingSummary": "Onset: immediate; peak: minutes; duration depends on physiology and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Calcium gluconate",
@@ -2564,7 +2914,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: 30-60 mg/kg IV depending indication; verify elemental calcium/protocol."
+    "pediatricDosing": "Peds: 30-60 mg/kg IV depending indication; verify elemental calcium/protocol.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset: minutes; peak: minutes; duration depends on physiology and ongoing losses.",
+    "timingSummary": "Onset: minutes; peak: minutes; duration depends on physiology and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Sodium bicarbonate",
@@ -2601,7 +2956,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: 1 mEq/kg IV for selected severe acidosis/hyperkalemia protocols."
+    "pediatricDosing": "Peds: 1 mEq/kg IV for selected severe acidosis/hyperkalemia protocols.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Dextrose 50%",
@@ -2638,7 +2998,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: avoid D50 in small children; use age-appropriate dextrose concentration. Dose dextrose 0.25-0.5 g/kg."
+    "pediatricDosing": "Peds: avoid D50 in small children; use age-appropriate dextrose concentration. Dose dextrose 0.25-0.5 g/kg.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Regular insulin",
@@ -2675,7 +3040,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: hyperkalemia often 0.1 units/kg IV with dextrose per protocol; glucose monitoring mandatory."
+    "pediatricDosing": "Peds: hyperkalemia often 0.1 units/kg IV with dextrose per protocol; glucose monitoring mandatory.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Glucagon",
@@ -2711,7 +3081,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "name": "Mannitol",
@@ -2747,7 +3122,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Hypertonic saline 3%",
@@ -2783,7 +3163,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Furosemide",
@@ -2819,7 +3204,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Desmopressin",
@@ -2855,7 +3245,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "name": "Heparin",
@@ -2892,7 +3287,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset IV: immediate; peak: immediate; duration: dose dependent, often 30-120 min.",
+    "timingSummary": "Onset IV: immediate; peak: immediate; duration: dose dependent, often 30-120 min. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "name": "Protamine",
@@ -2929,7 +3329,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset: within minutes; peak: minutes; duration: short relative to heparin rebound risk.",
+    "timingSummary": "Onset: within minutes; peak: minutes; duration: short relative to heparin rebound risk. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "name": "Tranexamic acid",
@@ -2966,7 +3371,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: commonly 10-15 mg/kg IV loading, infusion varies by procedure and protocol."
+    "pediatricDosing": "Peds: commonly 10-15 mg/kg IV loading, infusion varies by procedure and protocol.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset: minutes; peak: end of infusion; duration related to renal clearance.",
+    "timingSummary": "Onset: minutes; peak: end of infusion; duration related to renal clearance. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "name": "Aminocaproic acid",
@@ -3002,7 +3412,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "name": "Dantrolene",
@@ -3038,7 +3453,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Lipid emulsion 20%",
@@ -3074,7 +3494,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Methylene blue",
@@ -3110,7 +3535,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "name": "Oxytocin",
@@ -3147,7 +3577,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "name": "Methylergonovine",
@@ -3183,7 +3618,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "name": "Carboprost",
@@ -3219,7 +3659,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "name": "Terbutaline",
@@ -3255,7 +3700,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "name": "Lidocaine local",
@@ -3292,7 +3742,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Depends on block site; infiltration often 1-2 hr, longer with epinephrine.",
     "obesityConsiderations": "Calculate max dose using LBW/IBW or capped institutional max in obesity.",
-    "pediatricDosing": "Peds: max local anesthetic dose should be weight-based and lower in infants; verify block-specific dose and institutional max."
+    "pediatricDosing": "Peds: max local anesthetic dose should be weight-based and lower in infants; verify block-specific dose and institutional max.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "0.5% = 5 mg/mL; 1% = 10 mg/mL; 1.5% = 15 mg/mL; 2% = 20 mg/mL. Common: infiltration 0.5-1%, epidural 1-2%, IVRA 0.5%.",
+    "onsetPeak": "Onset: fast, usually 2-5 min peripheral/infiltration; peak: 5-15 min; duration: 1-2 hr plain, longer with epi.",
+    "timingSummary": "Onset: fast, usually 2-5 min peripheral/infiltration; peak: 5-15 min; duration: 1-2 hr plain, longer with epi. Duration: Depends on block site; infiltration often 1-2 hr, longer with epinephrine.",
+    "metabolismElimination": "Hepatic amide metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Bupivacaine",
@@ -3329,7 +3784,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Peripheral block often 6-12 hr, neuraxial shorter; dose/site dependent.",
     "obesityConsiderations": "Use conservative max dose in obesity; high cardiotoxicity risk.",
-    "pediatricDosing": "Peds: use conservative mg/kg max, especially infants; regional dosing is block and age specific."
+    "pediatricDosing": "Peds: use conservative mg/kg max, especially infants; regional dosing is block and age specific.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "0.0625% = 0.625 mg/mL; 0.1% = 1 mg/mL; 0.125% = 1.25 mg/mL; 0.25% = 2.5 mg/mL; 0.5% = 5 mg/mL; 0.75% = 7.5 mg/mL. Common: spinal 0.75% hyperbaric, PNB 0.25-0.5%, epidural dilute solutions.",
+    "onsetPeak": "Onset: slower, 5-20 min depending site; peak: 20-30 min; duration: long, often 3-12 hr depending route/site.",
+    "timingSummary": "Onset: slower, 5-20 min depending site; peak: 20-30 min; duration: long, often 3-12 hr depending route/site. Duration: Peripheral block often 6-12 hr, neuraxial shorter; dose/site dependent.",
+    "metabolismElimination": "Hepatic amide metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Ropivacaine",
@@ -3366,7 +3826,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Peripheral block often 5-8 hr, dose/site dependent.",
     "obesityConsiderations": "Use conservative max dose in obesity; less cardiotoxic than bupivacaine but not benign.",
-    "pediatricDosing": "Peds: regional dosing is block and age specific; use institutional pediatric regional reference."
+    "pediatricDosing": "Peds: regional dosing is block and age specific; use institutional pediatric regional reference.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "0.2% = 2 mg/mL; 0.5% = 5 mg/mL; 0.75% = 7.5 mg/mL; 1% = 10 mg/mL. Common: PNB 0.2-0.5%, catheter 0.1-0.2%.",
+    "onsetPeak": "Onset: 5-20 min; peak: 20-30 min; duration: intermediate-long, often 5-8 hr depending route/site.",
+    "timingSummary": "Onset: 5-20 min; peak: 20-30 min; duration: intermediate-long, often 5-8 hr depending route/site. Duration: Peripheral block often 5-8 hr, dose/site dependent.",
+    "metabolismElimination": "Hepatic CYP metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Mepivacaine",
@@ -3402,7 +3867,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Site and agent dependent, minutes to many hours.",
     "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
-    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "1% = 10 mg/mL; 1.5% = 15 mg/mL; 2% = 20 mg/mL. Common: peripheral block 1-1.5%.",
+    "onsetPeak": "Onset: 3-10 min; peak: 10-20 min; duration: intermediate, often 2-4 hr.",
+    "timingSummary": "Onset: 3-10 min; peak: 10-20 min; duration: intermediate, often 2-4 hr. Duration: Site and agent dependent, minutes to many hours.",
+    "metabolismElimination": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Chloroprocaine",
@@ -3438,7 +3908,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Site and agent dependent, minutes to many hours.",
     "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
-    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "1% = 10 mg/mL; 2% = 20 mg/mL; 3% = 30 mg/mL. Common: epidural 2-3%, spinal preservative-free chloroprocaine 1%.",
+    "onsetPeak": "Onset: very rapid, 2-5 min; peak: 5-10 min; duration: short, often 30-90 min.",
+    "timingSummary": "Onset: very rapid, 2-5 min; peak: 5-10 min; duration: short, often 30-90 min. Duration: Site and agent dependent, minutes to many hours.",
+    "metabolismElimination": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Tetracaine",
@@ -3474,7 +3949,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Site and agent dependent, minutes to many hours.",
     "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
-    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing.",
+    "stage": "Regional/neuraxial",
+    "concentrations": "1% = 10 mg/mL. Common: spinal 0.5-1% solution depending formulation.",
+    "onsetPeak": "Onset: 5-10 min; peak: 15-30 min; duration: long spinal, often 2-6 hr.",
+    "timingSummary": "Onset: 5-10 min; peak: 15-30 min; duration: long spinal, often 2-6 hr. Duration: Site and agent dependent, minutes to many hours.",
+    "metabolismElimination": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "name": "Sevoflurane",
@@ -3512,7 +3992,12 @@ window.PERIOP_DRUGS = [
     "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
     "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
     "pediatricDosing": "Peds: MAC is age dependent and higher in infants/children than adults; titrate end-tidal concentration to effect.",
-    "mac40": 2.0
+    "mac40": 2.0,
+    "stage": "Maintenance/volatile",
+    "concentrations": "",
+    "onsetPeak": "Onset/offset: rapid inhaled titration; peak: end-tidal equilibration depends on ventilation, FGF, uptake, and cardiac output; duration context dependent.",
+    "timingSummary": "Onset/offset: rapid inhaled titration; peak: end-tidal equilibration depends on ventilation, FGF, uptake, and cardiac output; duration context dependent. Duration: Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "metabolismElimination": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism. | Exhaled through lungs; minimal renal excretion of metabolites."
   },
   {
     "name": "Desflurane",
@@ -3550,7 +4035,12 @@ window.PERIOP_DRUGS = [
     "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
     "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
     "pediatricDosing": "Peds: MAC is age dependent; airway irritation limits use for inhalation induction.",
-    "mac40": 6.0
+    "mac40": 6.0,
+    "stage": "Maintenance/volatile",
+    "concentrations": "",
+    "onsetPeak": "Onset/offset: very rapid due to low blood-gas solubility; peak: end-tidal equilibration; duration context dependent.",
+    "timingSummary": "Onset/offset: very rapid due to low blood-gas solubility; peak: end-tidal equilibration; duration context dependent. Duration: Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "metabolismElimination": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism. | Exhaled through lungs; minimal renal excretion of metabolites."
   },
   {
     "name": "Isoflurane",
@@ -3588,7 +4078,12 @@ window.PERIOP_DRUGS = [
     "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
     "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
     "pediatricDosing": "Peds: MAC is age dependent; titrate end-tidal concentration to effect.",
-    "mac40": 1.2
+    "mac40": 1.2,
+    "stage": "Maintenance/volatile",
+    "concentrations": "",
+    "onsetPeak": "Onset/offset: slower than sevo/des due to higher blood-gas solubility; peak: end-tidal equilibration; duration context dependent.",
+    "timingSummary": "Onset/offset: slower than sevo/des due to higher blood-gas solubility; peak: end-tidal equilibration; duration context dependent. Duration: Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "metabolismElimination": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism. | Exhaled through lungs; minimal renal excretion of metabolites."
   },
   {
     "name": "Nitrous oxide",
@@ -3625,7 +4120,12 @@ window.PERIOP_DRUGS = [
     "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
     "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
     "pediatricDosing": "Peds: adjunct concentration commonly up to 50-70% with oxygen depending setting; avoid contraindications.",
-    "mac40": 105
+    "mac40": 105,
+    "stage": "Maintenance/volatile",
+    "concentrations": "",
+    "onsetPeak": "Onset/offset: rapid; peak: alveolar equilibration; duration context dependent and limited by closed gas space effects.",
+    "timingSummary": "Onset/offset: rapid; peak: alveolar equilibration; duration context dependent and limited by closed gas space effects. Duration: Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "metabolismElimination": "Eliminated essentially unchanged via exhalation. | Exhaled through lungs; minimal renal excretion of metabolites."
   },
   {
     "id": "lorazepam",
@@ -3660,7 +4160,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "id": "diazepam",
@@ -3695,7 +4200,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "id": "clonidine",
@@ -3731,7 +4241,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "id": "naloxone",
@@ -3766,7 +4281,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "flumazenil",
@@ -3801,7 +4321,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "nalmefene",
@@ -3836,7 +4361,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "nalbuphine",
@@ -3871,7 +4401,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "id": "butorphanol",
@@ -3906,7 +4441,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/biliary excretion of metabolites varies by agent.",
     "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
     "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
-    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate.",
+    "stage": "Analgesia/opioids",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on lipid solubility and context-sensitive half-time. Duration: Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "metabolismElimination": "Primarily hepatic metabolism except remifentanil by esterases. | Renal/biliary excretion of metabolites varies by agent."
   },
   {
     "id": "remimazolam",
@@ -3942,7 +4482,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Mostly renal/biliary metabolites.",
     "duration": "Short bolus effect; longer after infusion or repeated dosing.",
     "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Induction/sedation",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Short bolus effect; longer after infusion or repeated dosing. Duration: Short bolus effect; longer after infusion or repeated dosing.",
+    "metabolismElimination": "Hepatic and/or extrahepatic metabolism depending on agent. | Mostly renal/biliary metabolites."
   },
   {
     "id": "cefazolin",
@@ -3979,7 +4524,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: 30 mg/kg IV, common max 2 g or 3 g by weight/protocol."
+    "pediatricDosing": "Peds: 30 mg/kg IV, common max 2 g or 3 g by weight/protocol.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "vancomycin",
@@ -4016,7 +4566,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: 15 mg/kg IV, timing and levels per protocol."
+    "pediatricDosing": "Peds: 15 mg/kg IV, timing and levels per protocol.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "clindamycin",
@@ -4053,7 +4608,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: 10 mg/kg IV, max commonly 900 mg."
+    "pediatricDosing": "Peds: 10 mg/kg IV, max commonly 900 mg.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "gentamicin",
@@ -4089,7 +4649,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: 2.5 mg/kg traditional or extended-interval dosing per age/renal function; levels required."
+    "pediatricDosing": "Peds: 2.5 mg/kg traditional or extended-interval dosing per age/renal function; levels required.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "metronidazole",
@@ -4125,7 +4690,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "cefoxitin",
@@ -4161,7 +4731,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "ceftriaxone",
@@ -4197,7 +4772,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "aztreonam",
@@ -4233,7 +4813,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion common, but varies by agent.",
     "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
     "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
-    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap.",
+    "stage": "Antibiotics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Prophylaxis redosing interval depends on half-life and blood loss. Duration: Prophylaxis redosing interval depends on half-life and blood loss.",
+    "metabolismElimination": "Agent-specific hepatic/renal handling. | Renal excretion common, but varies by agent."
   },
   {
     "id": "hydrocortisone",
@@ -4268,7 +4853,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Biologic effect often much longer than plasma half-life.",
     "obesityConsiderations": "Fixed stress or antiemetic dosing; obesity dosing is indication-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Biologic effect often much longer than plasma half-life.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Biologic effect often much longer than plasma half-life. Duration: Biologic effect often much longer than plasma half-life.",
+    "metabolismElimination": "Hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "id": "methylprednisolone",
@@ -4303,7 +4893,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion of metabolites.",
     "duration": "Biologic effect often much longer than plasma half-life.",
     "obesityConsiderations": "Fixed stress or antiemetic dosing; obesity dosing is indication-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Biologic effect often much longer than plasma half-life.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Biologic effect often much longer than plasma half-life. Duration: Biologic effect often much longer than plasma half-life.",
+    "metabolismElimination": "Hepatic metabolism. | Renal excretion of metabolites."
   },
   {
     "id": "vitamin-k",
@@ -4338,7 +4933,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "4-factor-pcc",
@@ -4373,7 +4973,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "andexanet-alfa",
@@ -4408,7 +5013,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "idarucizumab",
@@ -4443,7 +5053,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "fibrinogen-concentrate",
@@ -4478,7 +5093,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "bivalirudin",
@@ -4513,7 +5133,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "aspirin",
@@ -4549,7 +5174,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "cangrelor",
@@ -4585,7 +5215,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/hepatic clearance varies.",
     "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
     "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Coagulation/blood",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Depends on coagulation endpoint and underlying anticoagulant. Duration: Depends on coagulation endpoint and underlying anticoagulant.",
+    "metabolismElimination": "Agent-specific enzymatic or reticuloendothelial clearance. | Renal/hepatic clearance varies."
   },
   {
     "id": "levetiracetam",
@@ -4620,7 +5255,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "fosphenytoin",
@@ -4655,7 +5295,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "phenytoin",
@@ -4690,7 +5335,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "phenobarbital",
@@ -4725,7 +5375,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "caffeine-citrate",
@@ -4760,7 +5415,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "racemic-epinephrine",
@@ -4796,7 +5456,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "id": "aminophylline",
@@ -4832,7 +5497,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "id": "epoprostenol-inhaled",
@@ -4868,7 +5538,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "id": "iloprost-inhaled",
@@ -4904,7 +5579,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "id": "nitric-oxide-inhaled",
@@ -4940,7 +5620,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on route.",
     "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on route. Duration: Minutes to hours depending on route.",
+    "metabolismElimination": "Agent-specific pulmonary/systemic metabolism. | Renal/fecal excretion varies."
   },
   {
     "id": "nifedipine",
@@ -4976,7 +5661,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
   },
   {
     "id": "misoprostol",
@@ -5011,7 +5701,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "id": "dinoprostone",
@@ -5046,7 +5741,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal/fecal excretion varies.",
     "duration": "Minutes to hours depending on drug.",
     "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "OB",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Minutes to hours depending on drug. Duration: Minutes to hours depending on drug.",
+    "metabolismElimination": "Hepatic/renal metabolism varies. | Renal/fecal excretion varies."
   },
   {
     "id": "phenobarbital-neonatal",
@@ -5082,7 +5782,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal excretion important for several antiepileptics.",
     "duration": "Hours to days depending on agent.",
     "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Hours to days depending on agent. Duration: Hours to days depending on agent.",
+    "metabolismElimination": "Hepatic or renal metabolism varies. | Renal excretion important for several antiepileptics."
   },
   {
     "id": "atipamezole",
@@ -5117,7 +5822,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "sugammadex-16-mg-kg",
@@ -5153,7 +5863,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "sugammadex-4-mg-kg",
@@ -5189,7 +5904,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "sugammadex-2-mg-kg",
@@ -5225,7 +5945,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Often renal excretion or organ-independent redistribution.",
     "duration": "Usually minutes to hours depending on agent and target.",
     "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Paralysis/reversal",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes to hours depending on agent and target. Duration: Usually minutes to hours depending on agent and target.",
+    "metabolismElimination": "Agent-specific metabolism or binding mechanism. | Often renal excretion or organ-independent redistribution."
   },
   {
     "id": "albumin-5",
@@ -5260,7 +5985,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Not applicable or renal handling varies.",
     "duration": "Volume effect depends on capillary leak and albumin concentration.",
     "obesityConsiderations": "Dose to volume status and hemodynamic endpoint, not ABW alone.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Volume effect depends on capillary leak and albumin concentration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Volume effect depends on capillary leak and albumin concentration. Duration: Volume effect depends on capillary leak and albumin concentration.",
+    "metabolismElimination": "Intravascular distribution and reticuloendothelial/renal handling. | Not applicable or renal handling varies."
   },
   {
     "id": "albumin-25",
@@ -5295,7 +6025,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Not applicable or renal handling varies.",
     "duration": "Volume effect depends on capillary leak and albumin concentration.",
     "obesityConsiderations": "Dose to volume status and hemodynamic endpoint, not ABW alone.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Volume effect depends on capillary leak and albumin concentration.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Volume effect depends on capillary leak and albumin concentration. Duration: Volume effect depends on capillary leak and albumin concentration.",
+    "metabolismElimination": "Intravascular distribution and reticuloendothelial/renal handling. | Not applicable or renal handling varies."
   },
   {
     "id": "potassium-chloride",
@@ -5330,7 +6065,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "id": "sodium-phosphate",
@@ -5365,7 +6105,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "id": "potassium-phosphate",
@@ -5400,7 +6145,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Renal handling central for many agents.",
     "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
     "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Metabolic/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Effect depends on deficit, redistribution, and ongoing losses. Duration: Effect depends on deficit, redistribution, and ongoing losses.",
+    "metabolismElimination": "Physiologic distribution and renal/endocrine handling. | Renal handling central for many agents."
   },
   {
     "id": "acetazolamide",
@@ -5436,7 +6186,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "id": "mannitol-20",
@@ -5472,7 +6227,12 @@ window.PERIOP_DRUGS = [
     "excretion": "Agent-specific excretion.",
     "duration": "Indication dependent.",
     "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Other/rescue",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Indication dependent. Duration: Indication dependent.",
+    "metabolismElimination": "Agent-specific metabolism. | Agent-specific excretion."
   },
   {
     "id": "clevidipine-infusion",
@@ -5508,6 +6268,170 @@ window.PERIOP_DRUGS = [
     "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
     "duration": "Usually minutes for IV titratable agents.",
     "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
-    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use.",
+    "stage": "Hemodynamics",
+    "concentrations": "",
+    "onsetPeak": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents.",
+    "timingSummary": "Onset/peak: agent, route, and dose dependent; duration: Usually minutes for IV titratable agents. Duration: Usually minutes for IV titratable agents.",
+    "metabolismElimination": "Hepatic, plasma esterase, or RBC metabolism depending on agent. | Metabolite excretion varies; some accumulate in renal/hepatic dysfunction."
+  },
+  {
+    "name": "Epinephrine regional adjunct",
+    "class": "Alpha/beta agonist adjunct",
+    "moa": "Vasoconstriction reduces systemic uptake and can prolong some peripheral local anesthetic blocks; also intravascular marker when used in test dose.",
+    "category": "Regional adjunct",
+    "displayClass": "Regional adjunct",
+    "defaultScalar": "Fixed",
+    "doses": [
+      {
+        "label": "Epinephrine 1:200,000 = 5 mcg/mL; test dose often 10-15 mcg with local anesthetic depending institutional practice",
+        "route": "Regional/Epidural test dose",
+        "scalar": "Fixed",
+        "unit": "custom",
+        "min": 0,
+        "name": "Adult"
+      }
+    ],
+    "cautions": "Avoid or use caution in end-arterial fields, severe CAD, tachyarrhythmias, or uteroplacental concerns depending route/dose.",
+    "contraindications": "Do not inject intravascularly except intended monitored use.",
+    "id": "epinephrine-regional-adjunct",
+    "common": true,
+    "tags": [
+      "Common",
+      "Regional adjunct",
+      "Local anesthetic adjunct"
+    ],
+    "metabolism": "Rapid enzymatic metabolism by COMT and MAO.",
+    "excretion": "Urinary metabolites.",
+    "duration": "Adjunct effect depends on block site and local anesthetic.",
+    "pediatricDosing": "Peds: adjunct dosing is institution and block specific; verify maximum epinephrine concentration and test-dose strategy.",
+    "obesityConsiderations": "No obesity scalar; caution with occult intravascular injection and cardiovascular disease.",
+    "concentrations": "1:200,000 = 5 mcg/mL; 1:400,000 = 2.5 mcg/mL; 1:100,000 = 10 mcg/mL.",
+    "onsetPeak": "Onset: minutes; peak cardiovascular marker: within 30-60 sec if intravascular; duration: adjunct effect variable.",
+    "stage": "Regional/neuraxial",
+    "millerRef": "Ch 25 Local Anesthetics; Ch 41 Spinal, Epidural, and Caudal Anesthesia; Ch 42 Peripheral Nerve Blocks",
+    "millerPage": "chapter ref only, page not verified",
+    "sourceStatus": "chapter-level placeholder; dose requires audit",
+    "timingSummary": "Onset: minutes; peak cardiovascular marker: within 30-60 sec if intravascular; duration: adjunct effect variable. Duration: Adjunct effect depends on block site and local anesthetic.",
+    "metabolismElimination": "Rapid enzymatic metabolism by COMT and MAO. | Urinary metabolites."
+  },
+  {
+    "name": "Dexamethasone regional adjunct",
+    "class": "Steroid regional adjunct",
+    "moa": "Anti-inflammatory and possible direct neural/glucocorticoid effects prolong peripheral block duration; perineural vs IV practice varies.",
+    "category": "Regional adjunct",
+    "displayClass": "Regional adjunct",
+    "defaultScalar": "Fixed",
+    "doses": [
+      {
+        "label": "Adjunct commonly 4-8 mg IV or perineural in some practices; verify local policy",
+        "route": "IV/Perineural",
+        "scalar": "Fixed",
+        "unit": "mg fixed",
+        "min": 4,
+        "max": 8,
+        "name": "Adult"
+      }
+    ],
+    "cautions": "Hyperglycemia, infection risk concerns, off-label perineural use depending institution.",
+    "contraindications": "Use caution in uncontrolled diabetes or active infection.",
+    "id": "dexamethasone-regional-adjunct",
+    "common": true,
+    "tags": [
+      "Common",
+      "Regional adjunct",
+      "Local anesthetic adjunct"
+    ],
+    "metabolism": "Hepatic metabolism.",
+    "excretion": "Renal/biliary metabolites.",
+    "duration": "Adjunct can prolong block duration for many hours depending block and local anesthetic.",
+    "pediatricDosing": "Peds: verify age/weight-based institutional maximum and route policy.",
+    "obesityConsiderations": "Often fixed dose; consider diabetes/OSA/obesity steroid effects.",
+    "concentrations": "Common vial 4 mg/mL or 10 mg/mL depending product.",
+    "onsetPeak": "Onset: delayed; peak adjunct effect over hours; duration: prolonged biologic effect.",
+    "stage": "Regional/neuraxial",
+    "millerRef": "Ch 25 Local Anesthetics; Ch 42 Peripheral Nerve Blocks",
+    "millerPage": "chapter ref only, page not verified",
+    "sourceStatus": "chapter-level placeholder; dose requires audit",
+    "timingSummary": "Onset: delayed; peak adjunct effect over hours; duration: prolonged biologic effect. Duration: Adjunct can prolong block duration for many hours depending block and local anesthetic.",
+    "metabolismElimination": "Hepatic metabolism. | Renal/biliary metabolites."
+  },
+  {
+    "name": "Clonidine regional adjunct",
+    "class": "Alpha-2 agonist regional adjunct",
+    "moa": "Alpha-2 agonism prolongs neuraxial/peripheral local anesthetic effect and adds analgesia.",
+    "category": "Regional adjunct",
+    "displayClass": "Regional adjunct",
+    "defaultScalar": "Fixed",
+    "doses": [
+      {
+        "label": "Adjunct dosing varies by neuraxial vs peripheral route; verify institutional protocol",
+        "route": "Neuraxial/Perineural",
+        "scalar": "Titrated",
+        "unit": "custom",
+        "min": 0,
+        "name": "Adult"
+      }
+    ],
+    "cautions": "Hypotension, bradycardia, sedation.",
+    "contraindications": "Severe bradycardia, high-grade block without pacing, hemodynamic instability.",
+    "id": "clonidine-regional-adjunct",
+    "common": false,
+    "tags": [
+      "Regional adjunct",
+      "Local anesthetic adjunct"
+    ],
+    "metabolism": "Partial hepatic metabolism.",
+    "excretion": "Renal excretion significant.",
+    "duration": "Adjunct prolongation variable; hemodynamic effects may last hours.",
+    "pediatricDosing": "Peds: use only with pediatric regional reference and institutional dosing.",
+    "obesityConsiderations": "Fixed/titrated; bradycardia and hypotension risk more relevant than obesity scalar.",
+    "concentrations": "Product concentrations vary; document mcg/mL after dilution.",
+    "onsetPeak": "Onset: minutes to tens of minutes; peak: variable; duration: hours.",
+    "stage": "Regional/neuraxial",
+    "millerRef": "Ch 25 Local Anesthetics; Ch 41-42 Regional Anesthesia",
+    "millerPage": "chapter ref only, page not verified",
+    "sourceStatus": "chapter-level placeholder; dose requires audit",
+    "timingSummary": "Onset: minutes to tens of minutes; peak: variable; duration: hours. Duration: Adjunct prolongation variable; hemodynamic effects may last hours.",
+    "metabolismElimination": "Partial hepatic metabolism. | Renal excretion significant."
+  },
+  {
+    "name": "Dexmedetomidine regional adjunct",
+    "class": "Alpha-2 agonist regional adjunct",
+    "moa": "Alpha-2 agonism can prolong block duration; perineural use is off-label in many settings.",
+    "category": "Regional adjunct",
+    "displayClass": "Regional adjunct",
+    "defaultScalar": "Fixed",
+    "doses": [
+      {
+        "label": "Adjunct route/dose varies; commonly considered low mcg dose perineural or IV adjunct; verify protocol",
+        "route": "IV/Perineural",
+        "scalar": "Titrated",
+        "unit": "custom",
+        "min": 0,
+        "name": "Adult"
+      }
+    ],
+    "cautions": "Bradycardia, hypotension, sedation; off-label perineural use depending institution.",
+    "contraindications": "Severe bradycardia/high-grade block without pacing; hemodynamic instability.",
+    "id": "dexmedetomidine-regional-adjunct",
+    "common": false,
+    "tags": [
+      "Regional adjunct",
+      "Local anesthetic adjunct"
+    ],
+    "metabolism": "Hepatic glucuronidation and CYP metabolism.",
+    "excretion": "Urine and feces as metabolites.",
+    "duration": "Adjunct prolongation variable; systemic sedative effect can last hours.",
+    "pediatricDosing": "Peds: verify pediatric regional protocol.",
+    "obesityConsiderations": "Dose usually fixed/titrated; bradycardia/hypotension more important than weight scalar.",
+    "concentrations": "Common vial 100 mcg/mL; dilute to protocol-specific mcg/mL.",
+    "onsetPeak": "Onset: 5-10 min IV; peak: 15-30 min; duration: context dependent.",
+    "stage": "Regional/neuraxial",
+    "millerRef": "Ch 21 Intravenous Anesthetics; Ch 42 Peripheral Nerve Blocks",
+    "millerPage": "chapter ref only, page not verified",
+    "sourceStatus": "chapter-level placeholder; dose requires audit",
+    "timingSummary": "Onset: 5-10 min IV; peak: 15-30 min; duration: context dependent. Duration: Adjunct prolongation variable; systemic sedative effect can last hours.",
+    "metabolismElimination": "Hepatic glucuronidation and CYP metabolism. | Urine and feces as metabolites."
   }
 ];

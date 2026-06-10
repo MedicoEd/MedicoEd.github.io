@@ -11,7 +11,7 @@
 <header class="topbar">
   <div>
     <h1>Periop Drug Grid</h1>
-    <p>Spreadsheet-style perioperative medication reference with live adult calculations, pediatric notes, pharmacokinetics, and source audit fields.</p>
+    <p>Live adult dose grid, common workflow page, pediatric subpage, and regional/local anesthetic subpage.</p>
   </div>
   <div class="top-actions">
     <button id="exportCsv">Export visible CSV</button>
@@ -48,7 +48,15 @@
   </aside>
 
   <section class="workspace">
-    <section class="filters">
+    <nav class="page-tabs" id="pageTabs">
+      <button class="page-tab active" data-view="commonWorkflow">Common meds by stage</button>
+      <button class="page-tab" data-view="fullGrid">Full drug grid</button>
+      <button class="page-tab" data-view="pediatric">Pediatric dosing</button>
+      <button class="page-tab" data-view="regional">Regional and adjuncts</button>
+      <button class="page-tab" data-view="volatile">Volatile MAC/age</button>
+    </nav>
+
+    <section class="filters" id="filters">
       <label>Search<input id="search" placeholder="propofol, pressor, QT, renal, induction..."></label>
       <label>Class<select id="category"><option value="all">all classes</option></select></label>
       <label>Display<select id="displayMode"><option value="all">all meds</option><option value="flagged">flagged only</option><option value="weight">weight based only</option><option value="fixed">fixed only</option><option value="audit">needs source audit</option></select></label>
@@ -64,28 +72,28 @@
       <div><strong id="flagCount">0</strong><span> flagged</span></div>
     </section>
 
-    <div class="table-wrap">
+    <section id="subpage" class="subpage"></section>
+
+    <div class="table-wrap" id="gridWrap">
       <table id="drugTable">
         <thead>
           <tr>
             <th class="pin1">#</th>
             <th class="pin2">Drug</th>
-            <th>Class</th>
-            <th>MOA</th>
-            <th>Route</th>
+            <th>Class / MOA</th>
+            <th>Stage / route</th>
+            <th>Concentration / formulation</th>
             <th>General adult dose</th>
             <th>Scalar</th>
             <th>Patient dose</th>
             <th>Rounded dose</th>
-            <th>Math</th>
+            <th>Calculation</th>
             <th>Pediatric dosing</th>
-            <th>Metabolism</th>
-            <th>Excretion</th>
-            <th>Duration</th>
-            <th>Obesity considerations</th>
+            <th>Timing: onset / peak / duration</th>
+            <th>Metabolism / elimination</th>
+            <th>Obesity and special considerations</th>
             <th>Flags</th>
-            <th>Cautions</th>
-            <th>Contraindications</th>
+            <th>Cautions / contraindications</th>
             <th>Source</th>
           </tr>
         </thead>
