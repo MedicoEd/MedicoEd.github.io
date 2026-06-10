@@ -13,7 +13,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1.5,
         "max": 2.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, respiratory depression; reduce dose in elderly, shock, severe LV dysfunction.",
@@ -23,9 +23,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Hypnotic",
-      "Alkylphenol IV hypnotic"
-    ]
+      "Alkylphenol IV hypnotic",
+      "Common",
+      "Hypnotic"
+    ],
+    "displayClass": "Hypnotic",
+    "common": true,
+    "metabolism": "Hepatic conjugation and extrahepatic clearance; inactive metabolites.",
+    "excretion": "Renal excretion of inactive metabolites.",
+    "duration": "Bolus hypnosis about 5-10 min; context-sensitive recovery increases with infusion duration.",
+    "obesityConsiderations": "Dose on LBW or adjusted strategy in obesity; avoid ABW boluses in severe obesity. Titrate to effect, especially with low-flow states.",
+    "pediatricDosing": "Peds: induction 2-3 mg/kg IV; sedation/infusion institution-specific, commonly titrated 50-200 mcg/kg/min. Reduce in hemodynamic instability."
   },
   {
     "name": "Etomidate",
@@ -41,7 +49,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.2,
         "max": 0.3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Myoclonus, PONV, adrenal steroidogenesis suppression; minimal CV depression.",
@@ -51,15 +59,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Hypnotic",
       "Imidazole IV hypnotic"
-    ]
+    ],
+    "displayClass": "Hypnotic",
+    "common": true,
+    "metabolism": "Hepatic and plasma esterase hydrolysis.",
+    "excretion": "Urinary and biliary inactive metabolites.",
+    "duration": "Hypnosis about 3-5 min after induction dose.",
+    "obesityConsiderations": "ABW often acceptable, but use small titrated boluses in severe obesity or shock.",
+    "pediatricDosing": "Peds: induction 0.2-0.3 mg/kg IV. Audit adrenal-risk policy."
   },
   {
     "name": "Ketamine",
     "class": "Phencyclidine dissociative anesthetic",
     "moa": "NMDA receptor antagonism with sympathomimetic and analgesic effects.",
-    "category": "Hypnotic/analgesic",
+    "category": "Hypnotic",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -69,7 +85,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1,
         "max": 2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Increases secretions, emergence phenomena, tachycardia/HTN; useful in bronchospasm and shock with preserved catecholamines.",
@@ -79,9 +95,18 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
+      "Hypnotic",
       "Hypnotic/analgesic",
       "Phencyclidine dissociative anesthetic"
-    ]
+    ],
+    "displayClass": "Hypnotic",
+    "common": true,
+    "metabolism": "Hepatic CYP metabolism to norketamine.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "IV bolus dissociation about 5-10 min; analgesic effect may last longer.",
+    "obesityConsiderations": "Prefer IBW or AdjBW for bolus in obesity; titrate because sympathetic response and emergence effects vary.",
+    "pediatricDosing": "Peds: induction 1-2 mg/kg IV or 4-6 mg/kg IM; analgesia 0.1-0.3 mg/kg IV. Consider secretion management."
   },
   {
     "name": "Midazolam",
@@ -97,7 +122,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.01,
         "max": 0.05,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Synergistic respiratory depression with opioids/propofol; reduce in elderly, OSA, hepatic disease.",
@@ -107,15 +132,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Sedative",
-      "Benzodiazepine"
-    ]
+      "Benzodiazepine",
+      "Common",
+      "Sedative"
+    ],
+    "displayClass": "Sedative",
+    "common": true,
+    "metabolism": "Hepatic CYP3A to active hydroxylated metabolites.",
+    "excretion": "Renal excretion of conjugated metabolites; accumulation in renal dysfunction.",
+    "duration": "IV anxiolysis/sedation about 15-60 min; longer after repeated dosing.",
+    "obesityConsiderations": "Use reduced incremental dosing in obesity, OSA, frailty, and renal dysfunction.",
+    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; common max single dose 2 mg for anxiolysis in many settings. PO premed often 0.25-0.5 mg/kg."
   },
   {
     "name": "Dexmedetomidine",
     "class": "Alpha-2 agonist sedative",
     "moa": "Central alpha-2 agonism reduces sympathetic outflow; sedation and opioid-sparing analgesia.",
-    "category": "Sedative adjunct",
+    "category": "Sedative",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -125,7 +158,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/hr",
         "min": 0.2,
         "max": 0.7,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia, hypotension; avoid rapid loading in tenuous cardiac output.",
@@ -135,9 +168,18 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Sedative adjunct",
-      "Alpha-2 agonist sedative"
-    ]
+      "Alpha-2 agonist sedative",
+      "Common",
+      "Sedative",
+      "Sedative adjunct"
+    ],
+    "displayClass": "Sedative",
+    "common": true,
+    "metabolism": "Extensive hepatic glucuronidation and CYP metabolism.",
+    "excretion": "Urinary excretion of metabolites.",
+    "duration": "Distribution half-life minutes; terminal half-life about 2 hr; sedative effect persists after infusion.",
+    "obesityConsiderations": "Dose using IBW/AdjBW strategy in obesity; avoid large loading doses if bradycardic or low-flow.",
+    "pediatricDosing": "Peds: infusion often 0.2-0.7 mcg/kg/hr titrated; loading dose varies and may cause bradycardia/hypotension."
   },
   {
     "name": "Thiopental",
@@ -153,7 +195,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 3,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, myocardial depression, histamine release less common; rare in current practice.",
@@ -163,9 +205,16 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Hypnotic",
-      "Barbiturate IV hypnotic"
-    ]
+      "Barbiturate IV hypnotic",
+      "Hypnotic"
+    ],
+    "displayClass": "Hypnotic",
+    "common": false,
+    "metabolism": "Hepatic and/or extrahepatic metabolism depending on agent.",
+    "excretion": "Mostly renal/biliary metabolites.",
+    "duration": "Short bolus effect; longer after infusion or repeated dosing.",
+    "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Methohexital",
@@ -181,7 +230,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1,
         "max": 1.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Myoclonus/seizure-like activity; commonly used for ECT.",
@@ -191,9 +240,16 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 21 Intravenous Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Hypnotic",
-      "Barbiturate IV hypnotic"
-    ]
+      "Barbiturate IV hypnotic",
+      "Hypnotic"
+    ],
+    "displayClass": "Hypnotic",
+    "common": false,
+    "metabolism": "Hepatic and/or extrahepatic metabolism depending on agent.",
+    "excretion": "Mostly renal/biliary metabolites.",
+    "duration": "Short bolus effect; longer after infusion or repeated dosing.",
+    "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Fentanyl",
@@ -209,7 +265,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg",
         "min": 0.5,
         "max": 2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Respiratory depression, chest wall rigidity with rapid high dose, bradycardia, PONV.",
@@ -219,9 +275,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Opioid",
       "Phenylpiperidine opioid agonist"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": true,
+    "metabolism": "Hepatic CYP3A metabolism to inactive metabolites.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Analgesia about 30-60 min after small bolus; longer with repeated dosing.",
+    "obesityConsiderations": "Highly lipophilic; repeated ABW dosing accumulates in adipose. Use LBW/IBW increments and titrate.",
+    "pediatricDosing": "Peds: 1-2 mcg/kg IV bolus titrated; higher anesthetic doses are case-specific."
   },
   {
     "name": "Sufentanil",
@@ -237,7 +301,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg",
         "min": 0.1,
         "max": 0.3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Profound respiratory depression; high potency requires concentration vigilance.",
@@ -249,13 +313,20 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Opioid",
       "Potent phenylpiperidine opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Remifentanil",
     "class": "Ultra-short acting opioid",
     "moa": "Mu agonist; ester hydrolysis by nonspecific tissue/blood esterases.",
-    "category": "Opioid infusion",
+    "category": "Opioid",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -265,7 +336,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.05,
         "max": 0.2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Profound bradycardia/hypotension and apnea; hyperalgesia/acute tolerance possible.",
@@ -275,9 +346,18 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
+      "Opioid",
       "Opioid infusion",
       "Ultra-short acting opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": true,
+    "metabolism": "Rapid nonspecific plasma and tissue esterase metabolism.",
+    "excretion": "Renal excretion of inactive metabolite.",
+    "duration": "Offset 3-10 min, largely context independent.",
+    "obesityConsiderations": "Often dosed to LBW or adjusted weight in obesity; titrate to respiratory/hemodynamic effect.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Alfentanil",
@@ -293,7 +373,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg",
         "min": 5,
         "max": 20,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Respiratory depression; CYP3A metabolism; context-sensitive accumulation with infusion.",
@@ -305,7 +385,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Opioid",
       "Short-acting phenylpiperidine opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Morphine",
@@ -321,7 +408,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.05,
         "max": 0.1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Histamine release, renal metabolite accumulation, nausea, respiratory depression.",
@@ -331,9 +418,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Opioid",
       "Phenanthrene opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": true,
+    "metabolism": "Hepatic glucuronidation to active M6G and M3G.",
+    "excretion": "Renal excretion; active metabolite accumulation in CKD.",
+    "duration": "IV analgesia about 3-4 hr; longer in renal dysfunction.",
+    "obesityConsiderations": "Use conservative dosing in obesity/OSA; avoid ABW loading without monitoring.",
+    "pediatricDosing": "Peds: 0.05-0.1 mg/kg IV titrated; reduce with OSA, neonates, renal dysfunction."
   },
   {
     "name": "Hydromorphone",
@@ -349,7 +444,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.003,
         "max": 0.01,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Respiratory depression; longer PACU tail than fentanyl.",
@@ -359,9 +454,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Opioid",
       "Semi-synthetic opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": true,
+    "metabolism": "Hepatic glucuronidation to H3G.",
+    "excretion": "Renal excretion; neuroexcitatory metabolite accumulation possible in CKD.",
+    "duration": "IV analgesia about 2-4 hr.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA.",
+    "pediatricDosing": "Peds: 0.005-0.015 mg/kg IV titrated; institution-specific."
   },
   {
     "name": "Methadone",
@@ -377,7 +480,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.1,
         "max": 0.2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Long and variable half-life, QT prolongation, respiratory depression.",
@@ -387,15 +490,22 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Opioid",
-      "Long-acting opioid"
-    ]
+      "Long-acting opioid",
+      "Opioid"
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Hepatic CYP metabolism; variable half-life.",
+    "excretion": "Fecal and renal excretion.",
+    "duration": "Analgesia 4-8 hr, but elimination half-life much longer.",
+    "obesityConsiderations": "Dose conservatively in obesity/OSA; QT and delayed respiratory depression require caution.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Meperidine",
     "class": "Phenylpiperidine opioid",
     "moa": "Mu agonist; antishivering effect; normeperidine metabolite.",
-    "category": "Opioid/antishivering",
+    "category": "Opioid",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -405,7 +515,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 12.5,
         "max": 25,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Avoid repeated dosing in renal failure due neurotoxic metabolite; serotonergic interactions.",
@@ -415,15 +525,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 22 Opioids",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Opioid",
       "Opioid/antishivering",
       "Phenylpiperidine opioid"
-    ]
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Oxycodone",
     "class": "Oral opioid",
     "moa": "Mu-opioid receptor agonism.",
-    "category": "Postop analgesic",
+    "category": "Opioid",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -433,7 +551,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Respiratory depression, constipation, nausea; adjust for frailty.",
@@ -443,15 +561,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 77 Acute Postoperative Pain",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Postop analgesic",
-      "Oral opioid"
-    ]
+      "Opioid",
+      "Oral opioid",
+      "Postop analgesic"
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Tramadol",
     "class": "Atypical opioid analgesic",
     "moa": "Weak mu agonism plus serotonin/norepinephrine reuptake inhibition.",
-    "category": "Postop analgesic",
+    "category": "Opioid",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -461,7 +587,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 50,
         "max": 100,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Serotonin syndrome, seizures, variable CYP2D6 activation.",
@@ -471,9 +597,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 77 Acute Postoperative Pain",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Postop analgesic",
-      "Atypical opioid analgesic"
-    ]
+      "Atypical opioid analgesic",
+      "Opioid",
+      "Postop analgesic"
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "name": "Acetaminophen",
@@ -489,7 +623,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 650,
         "max": 1000,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Reduce max daily dose in hepatic disease, heavy alcohol use, low body weight.",
@@ -500,8 +634,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Analgesic adjunct",
+      "Common",
       "Nonopioid analgesic/antipyretic"
-    ]
+    ],
+    "displayClass": "Analgesic adjunct",
+    "common": true,
+    "metabolism": "Hepatic glucuronidation/sulfation; minor CYP to NAPQI.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Analgesia/antipyresis about 4-6 hr.",
+    "obesityConsiderations": "Use capped total daily dose; consider lower max with liver disease, chronic alcohol use, low body weight.",
+    "pediatricDosing": "Peds: 10-15 mg/kg PO/IV q6h, max daily dose per age/weight and institutional policy."
   },
   {
     "name": "Ketorolac",
@@ -517,7 +659,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 15,
         "max": 30,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bleeding, renal injury, GI ulceration; avoid in high-risk fusion/bleeding contexts per surgeon.",
@@ -528,8 +670,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Analgesic adjunct",
+      "Common",
       "NSAID"
-    ]
+    ],
+    "displayClass": "Analgesic adjunct",
+    "common": true,
+    "metabolism": "Hepatic metabolism.",
+    "excretion": "Renal excretion; avoid/significantly reduce in renal dysfunction.",
+    "duration": "Analgesia about 4-6 hr.",
+    "obesityConsiderations": "Use capped fixed dosing; avoid ABW escalation in obesity.",
+    "pediatricDosing": "Peds: 0.5 mg/kg IV q6h, common max 15-30 mg; avoid renal dysfunction/bleeding risk."
   },
   {
     "name": "Ibuprofen",
@@ -545,7 +695,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 400,
         "max": 800,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Renal injury, platelet dysfunction, GI toxicity.",
@@ -556,8 +706,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Analgesic adjunct",
+      "Common",
       "NSAID"
-    ]
+    ],
+    "displayClass": "Analgesic adjunct",
+    "common": true,
+    "metabolism": "Agent-specific hepatic or renal handling.",
+    "excretion": "Renal excretion important for several agents.",
+    "duration": "Hours depending on agent.",
+    "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
+    "pediatricDosing": "Peds: 10 mg/kg PO q6-8h, max per protocol."
   },
   {
     "name": "Gabapentin",
@@ -573,7 +731,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 100,
         "max": 300,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Sedation, dizziness, respiratory depression synergy with opioids; renal adjustment.",
@@ -585,13 +743,20 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Analgesic adjunct",
       "Gabapentinoid"
-    ]
+    ],
+    "displayClass": "Analgesic adjunct",
+    "common": false,
+    "metabolism": "Agent-specific hepatic or renal handling.",
+    "excretion": "Renal excretion important for several agents.",
+    "duration": "Hours depending on agent.",
+    "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Lidocaine IV",
     "class": "Amide local anesthetic / antiarrhythmic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Analgesic/antiarrhythmic",
+    "category": "Analgesic adjunct",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -601,7 +766,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1,
         "max": 1.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "LAST, perioral numbness, seizures, arrhythmia; reduce hepatic/low CO states.",
@@ -611,15 +776,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Analgesic/antiarrhythmic",
-      "Amide local anesthetic / antiarrhythmic"
-    ]
+      "Amide local anesthetic / antiarrhythmic",
+      "Analgesic adjunct",
+      "Analgesic/antiarrhythmic"
+    ],
+    "displayClass": "Analgesic adjunct",
+    "common": false,
+    "metabolism": "Agent-specific hepatic or renal handling.",
+    "excretion": "Renal excretion important for several agents.",
+    "duration": "Hours depending on agent.",
+    "obesityConsiderations": "Use capped dosing and renal adjustment; avoid ABW escalation for toxicity-prone drugs.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Succinylcholine",
     "class": "Depolarizing neuromuscular blocker",
     "moa": "Nicotinic ACh receptor agonist causing phase I depolarizing block.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -629,7 +802,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1,
         "max": 1.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hyperkalemia, myalgia, bradycardia, MH trigger, increased IOP/ICP/IGP.",
@@ -639,15 +812,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Depolarizing neuromuscular blocker"
-    ]
+      "Common",
+      "Depolarizing neuromuscular blocker",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": true,
+    "metabolism": "Rapid pseudocholinesterase hydrolysis in plasma.",
+    "excretion": "Minimal renal excretion of parent drug.",
+    "duration": "Paralysis usually 5-10 min if normal pseudocholinesterase.",
+    "obesityConsiderations": "Often dosed on TBW/ABW for RSI in obesity to ensure intubating conditions; verify local practice.",
+    "pediatricDosing": "Peds: 1-2 mg/kg IV; IM 3-4 mg/kg for emergency airway when IV unavailable. Avoid in myopathy/burn/denervation/MH risk."
   },
   {
     "name": "Rocuronium",
     "class": "Aminosteroid nondepolarizing NMBA",
     "moa": "Competitive antagonism at nicotinic ACh receptor.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -657,7 +839,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.6,
         "max": 1.2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hepatic/biliary elimination; prolonged with liver disease; can be reversed by sugammadex.",
@@ -667,15 +849,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Aminosteroid nondepolarizing NMBA"
-    ]
+      "Aminosteroid nondepolarizing NMBA",
+      "Common",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": true,
+    "metabolism": "Hepatic uptake and biliary excretion; limited metabolism.",
+    "excretion": "Some renal excretion; duration prolonged in hepatic/renal dysfunction.",
+    "duration": "Intermediate duration about 30-60 min, dose dependent.",
+    "obesityConsiderations": "Intubating dose often IBW/AdjBW or ABW depending RSI goal; maintenance should be TOF-guided.",
+    "pediatricDosing": "Peds: 0.6-1.2 mg/kg IV for intubation depending on urgency."
   },
   {
     "name": "Vecuronium",
     "class": "Aminosteroid nondepolarizing NMBA",
     "moa": "Competitive nicotinic ACh receptor antagonism.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -685,7 +876,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.08,
         "max": 0.1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hepatic and renal elimination; active metabolite; prolonged in renal/hepatic dysfunction.",
@@ -695,15 +886,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Aminosteroid nondepolarizing NMBA"
-    ]
+      "Aminosteroid nondepolarizing NMBA",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": false,
+    "metabolism": "Hepatic metabolism to active metabolite.",
+    "excretion": "Biliary and renal excretion; prolonged in hepatic/renal disease.",
+    "duration": "Intermediate duration about 30-45 min; may prolong with accumulation.",
+    "obesityConsiderations": "Dose to IBW/AdjBW and TOF; avoid repeated unguided dosing in obesity/CKD.",
+    "pediatricDosing": "Peds: 0.1 mg/kg IV; monitor TOF."
   },
   {
     "name": "Cisatracurium",
     "class": "Benzylisoquinolinium nondepolarizing NMBA",
     "moa": "Competitive nicotinic ACh receptor antagonism.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -713,7 +912,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.15,
         "max": 0.2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hofmann elimination; useful in renal/hepatic failure; minimal histamine.",
@@ -723,15 +922,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Benzylisoquinolinium nondepolarizing NMBA"
-    ]
+      "Benzylisoquinolinium nondepolarizing NMBA",
+      "Common",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": true,
+    "metabolism": "Organ-independent Hofmann elimination and ester hydrolysis.",
+    "excretion": "Metabolites renally/hepatically cleared but parent largely organ independent.",
+    "duration": "Intermediate duration about 30-45 min.",
+    "obesityConsiderations": "Useful in obesity with organ dysfunction; dose to IBW/AdjBW and monitor TOF.",
+    "pediatricDosing": "Peds: 0.1-0.2 mg/kg IV; monitor TOF."
   },
   {
     "name": "Atracurium",
     "class": "Benzylisoquinolinium nondepolarizing NMBA",
     "moa": "Competitive nicotinic ACh receptor antagonism.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -741,7 +949,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.4,
         "max": 0.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hofmann/ester hydrolysis; histamine release; laudanosine with prolonged infusion.",
@@ -751,15 +959,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Benzylisoquinolinium nondepolarizing NMBA"
-    ]
+      "Benzylisoquinolinium nondepolarizing NMBA",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": false,
+    "metabolism": "Agent-specific: plasma cholinesterase, hepatic/biliary, renal, or Hofmann elimination.",
+    "excretion": "Agent-specific renal/biliary/metabolite excretion.",
+    "duration": "Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
+    "obesityConsiderations": "Use intubating-dose strategy deliberately; maintenance and redosing should be neuromuscular-monitor guided.",
+    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference."
   },
   {
     "name": "Pancuronium",
     "class": "Aminosteroid nondepolarizing NMBA",
     "moa": "Competitive nicotinic ACh receptor antagonism.",
-    "category": "Neuromuscular/reversal",
+    "category": "Neuromuscular blocker",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -769,7 +985,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.06,
         "max": 0.1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, vagolysis; renal elimination and prolonged duration.",
@@ -779,15 +995,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Neuromuscular/reversal",
-      "Aminosteroid nondepolarizing NMBA"
-    ]
+      "Aminosteroid nondepolarizing NMBA",
+      "Neuromuscular blocker",
+      "Neuromuscular/reversal"
+    ],
+    "displayClass": "Neuromuscular blocker",
+    "common": false,
+    "metabolism": "Agent-specific: plasma cholinesterase, hepatic/biliary, renal, or Hofmann elimination.",
+    "excretion": "Agent-specific renal/biliary/metabolite excretion.",
+    "duration": "Succinylcholine short; nondepolarizers intermediate to long, TOF dependent.",
+    "obesityConsiderations": "Use intubating-dose strategy deliberately; maintenance and redosing should be neuromuscular-monitor guided.",
+    "pediatricDosing": "Peds: weight-based dosing with TOF monitoring; neonates/infants may differ. Verify pediatric reference."
   },
   {
     "name": "Neostigmine",
     "class": "Acetylcholinesterase inhibitor",
     "moa": "Increases ACh at NMJ to antagonize nondepolarizing block.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -797,7 +1021,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.03,
         "max": 0.07,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia, bronchospasm, secretions; ceiling effect, avoid deep block reversal.",
@@ -807,15 +1031,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Acetylcholinesterase inhibitor",
+      "Common",
       "Neuromuscular/reversal",
-      "Acetylcholinesterase inhibitor"
-    ]
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": true,
+    "metabolism": "Partly hepatic metabolism.",
+    "excretion": "Renal excretion; duration prolonged in renal dysfunction.",
+    "duration": "Reversal effect about 30-60 min.",
+    "obesityConsiderations": "Dose to actual or adjusted weight per institutional practice; ceiling dose commonly applied.",
+    "pediatricDosing": "Peds: 0.03-0.07 mg/kg IV with anticholinergic; ceiling dose per institution."
   },
   {
     "name": "Glycopyrrolate",
     "class": "Quaternary antimuscarinic",
     "moa": "Muscarinic receptor antagonism.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "IBW",
     "doses": [
       {
@@ -825,7 +1058,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.005,
         "max": 0.015,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, dry mouth; does not cross BBB.",
@@ -835,15 +1068,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Neuromuscular/reversal",
-      "Quaternary antimuscarinic"
-    ]
+      "Quaternary antimuscarinic",
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": true,
+    "metabolism": "Minimal CNS penetration; partly hepatic metabolism.",
+    "excretion": "Renal excretion contributes to clearance.",
+    "duration": "Anticholinergic effect about 2-4 hr.",
+    "obesityConsiderations": "Use with caution in obesity if tachycardia/ischemia risk; dose with neostigmine ratio.",
+    "pediatricDosing": "Peds: 0.004-0.01 mg/kg IV, often paired with neostigmine."
   },
   {
     "name": "Sugammadex",
     "class": "Selective relaxant binding agent",
     "moa": "Encapsulates rocuronium/vecuronium.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -853,7 +1095,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 2,
         "max": 4,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia/asystole rare, hypersensitivity; may reduce hormonal contraceptive efficacy; renal clearance.",
@@ -863,15 +1105,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Neuromuscular/reversal",
+      "Reversal/rescue",
       "Selective relaxant binding agent"
-    ]
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": true,
+    "metabolism": "Encapsulates aminosteroid NMBs; not metabolized significantly.",
+    "excretion": "Renal excretion of sugammadex-NMBA complex.",
+    "duration": "Reversal usually within minutes.",
+    "obesityConsiderations": "Dose based on actual body weight in many protocols, especially urgent reversal; renal dysfunction requires caution.",
+    "pediatricDosing": "Peds: 2 mg/kg for moderate block, 4 mg/kg for deep block, 16 mg/kg for immediate reversal after high-dose rocuronium; verify age approval/policy."
   },
   {
     "name": "Phenylephrine",
     "class": "Alpha-1 agonist vasopressor",
     "moa": "Alpha-1 agonism increases SVR.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -881,7 +1132,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg fixed",
         "min": 50,
         "max": 200,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Reflex bradycardia, reduced CO in poor LV/RV function.",
@@ -891,15 +1142,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Alpha-1 agonist vasopressor"
-    ]
+      "Alpha-1 agonist vasopressor",
+      "Common",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": true,
+    "metabolism": "MAO and sulfotransferase metabolism.",
+    "excretion": "Urinary excretion of metabolites.",
+    "duration": "Bolus effect minutes; infusion titratable.",
+    "obesityConsiderations": "Use titrated boluses; fixed boluses may overshoot in small/frail patients but obesity does not require proportional ABW scaling.",
+    "pediatricDosing": "Peds: 1-5 mcg/kg IV bolus or infusion titrated; institutional concentration critical."
   },
   {
     "name": "Ephedrine",
     "class": "Indirect/direct sympathomimetic",
     "moa": "Norepinephrine release plus alpha/beta agonism.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -909,7 +1169,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, tachyphylaxis, myocardial oxygen demand.",
@@ -919,15 +1179,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Indirect/direct sympathomimetic"
-    ]
+      "Common",
+      "Indirect/direct sympathomimetic",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": true,
+    "metabolism": "Rapid enzymatic metabolism or organ clearance depending on agent.",
+    "excretion": "Metabolite excretion varies.",
+    "duration": "Generally immediate onset and short titratable duration.",
+    "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
+    "pediatricDosing": "Peds: 0.1 mg/kg IV titrated."
   },
   {
     "name": "Norepinephrine",
     "class": "Alpha > beta-1 agonist vasopressor",
     "moa": "Alpha-1 vasoconstriction with beta-1 inotropy.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -937,7 +1206,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.02,
         "max": 0.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Extravasation injury, ischemia at high dose; central access preferred for prolonged use.",
@@ -947,15 +1216,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Alpha > beta-1 agonist vasopressor"
-    ]
+      "Alpha > beta-1 agonist vasopressor",
+      "Common",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": true,
+    "metabolism": "COMT and MAO metabolism.",
+    "excretion": "Urinary excretion of metabolites.",
+    "duration": "Immediate titratable effect; offset within minutes.",
+    "obesityConsiderations": "Infusions often ordered mcg/kg/min but clinical titration and institutional concentration matter more than exact obesity scalar.",
+    "pediatricDosing": "Peds: infusion commonly 0.02-1 mcg/kg/min titrated to perfusion target."
   },
   {
     "name": "Epinephrine",
     "class": "Alpha and beta agonist",
     "moa": "Beta-1/beta-2 and alpha agonism dose-dependent.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -965,7 +1243,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.01,
         "max": 0.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachyarrhythmia, hyperlactatemia, myocardial ischemia.",
@@ -975,15 +1253,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Alpha and beta agonist"
-    ]
+      "Alpha and beta agonist",
+      "Common",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": true,
+    "metabolism": "COMT and MAO metabolism.",
+    "excretion": "Urinary excretion of metabolites.",
+    "duration": "Immediate titratable effect; bolus duration minutes.",
+    "obesityConsiderations": "Use indication-specific dosing; avoid simple ABW extrapolation for bolus rescue outside protocols.",
+    "pediatricDosing": "Peds: arrest dose 0.01 mg/kg IV of 0.1 mg/mL solution; pressor/inotrope infusion titrated per protocol."
   },
   {
     "name": "Vasopressin",
     "class": "V1 vasopressor",
     "moa": "V1 receptor mediated vasoconstriction.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -993,7 +1280,7 @@ window.PERIOP_DRUGS = [
         "unit": "units fixed",
         "min": 0.5,
         "max": 2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Ischemia, hyponatremia with longer use; useful in vasoplegia.",
@@ -1003,15 +1290,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "V1 vasopressor"
-    ]
+      "Common",
+      "Pressor/inotrope",
+      "V1 vasopressor",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": true,
+    "metabolism": "Peptidase metabolism in liver/kidney and other tissues.",
+    "excretion": "Limited renal excretion of intact drug.",
+    "duration": "Pressor effect minutes; half-life about 10-20 min.",
+    "obesityConsiderations": "Usually fixed-unit dosing; no obesity scalar required.",
+    "pediatricDosing": "Peds: use institutional critical-care/anesthesia protocol; less standardized."
   },
   {
     "name": "Dopamine",
     "class": "Dopaminergic/beta/alpha agonist",
     "moa": "Dose-dependent D1, beta-1, alpha effects.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1021,7 +1317,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 2,
         "max": 20,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Arrhythmogenic; less favored than norepi for shock.",
@@ -1031,15 +1327,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Dopaminergic/beta/alpha agonist"
-    ]
+      "Dopaminergic/beta/alpha agonist",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": false,
+    "metabolism": "Rapid enzymatic metabolism or organ clearance depending on agent.",
+    "excretion": "Metabolite excretion varies.",
+    "duration": "Generally immediate onset and short titratable duration.",
+    "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
   },
   {
     "name": "Dobutamine",
     "class": "Beta-1 agonist inotrope",
     "moa": "Beta-1 predominant inotropy with beta-2 vasodilation.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1049,7 +1353,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 2,
         "max": 20,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachyarrhythmia, hypotension if vasodilatory.",
@@ -1059,15 +1363,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Beta-1 agonist inotrope"
-    ]
+      "Beta-1 agonist inotrope",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": false,
+    "metabolism": "Rapid enzymatic metabolism or organ clearance depending on agent.",
+    "excretion": "Metabolite excretion varies.",
+    "duration": "Generally immediate onset and short titratable duration.",
+    "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
   },
   {
     "name": "Milrinone",
     "class": "PDE-3 inhibitor inodilator",
     "moa": "Increases cAMP causing inotropy and vasodilation.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1077,7 +1389,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.25,
         "max": 0.75,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, arrhythmias; renal clearance, adjust in CKD.",
@@ -1087,15 +1399,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "PDE-3 inhibitor inodilator"
-    ]
+      "PDE-3 inhibitor inodilator",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": false,
+    "metabolism": "Rapid enzymatic metabolism or organ clearance depending on agent.",
+    "excretion": "Metabolite excretion varies.",
+    "duration": "Generally immediate onset and short titratable duration.",
+    "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
   },
   {
     "name": "Isoproterenol",
     "class": "Nonselective beta agonist",
     "moa": "Beta-1 chronotropy/inotropy and beta-2 vasodilation.",
-    "category": "Vasoactive/cardiac",
+    "category": "Pressor/inotrope",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1105,7 +1425,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.01,
         "max": 0.1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachyarrhythmia, ischemia.",
@@ -1115,15 +1435,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Nonselective beta agonist"
-    ]
+      "Nonselective beta agonist",
+      "Pressor/inotrope",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Pressor/inotrope",
+    "common": false,
+    "metabolism": "Rapid enzymatic metabolism or organ clearance depending on agent.",
+    "excretion": "Metabolite excretion varies.",
+    "duration": "Generally immediate onset and short titratable duration.",
+    "obesityConsiderations": "Avoid blind ABW extrapolation for boluses; titrate to arterial pressure and perfusion endpoint.",
+    "pediatricDosing": "Peds: use weight-based bolus/infusion per institutional concentration and titrate to perfusion target."
   },
   {
     "name": "Esmolol",
     "class": "Ultra-short beta-1 blocker",
     "moa": "Beta-1 antagonism; esterase metabolism.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1133,7 +1461,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.25,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia, hypotension, bronchospasm less than nonselective agents.",
@@ -1143,15 +1471,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Ultra-short beta-1 blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Common",
+      "Ultra-short beta-1 blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": true,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Labetalol",
     "class": "Alpha/beta blocker",
     "moa": "Beta blockade with alpha-1 blockade.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1161,7 +1498,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 5,
         "max": 20,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia, hypotension, bronchospasm.",
@@ -1171,15 +1508,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Alpha/beta blocker"
-    ]
+      "Alpha/beta blocker",
+      "Antihypertensive/vasodilator",
+      "Common",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": true,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Metoprolol",
     "class": "Beta-1 blocker",
     "moa": "Selective beta-1 antagonism.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1189,7 +1535,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 1,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bradycardia, hypotension, bronchospasm at higher dose.",
@@ -1199,15 +1545,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Beta-1 blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Beta-1 blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Propranolol",
     "class": "Nonselective beta blocker",
     "moa": "Beta-1/beta-2 antagonism.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1217,7 +1571,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.5,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bronchospasm, bradycardia.",
@@ -1227,15 +1581,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Nonselective beta blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Nonselective beta blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Nicardipine",
     "class": "Dihydropyridine calcium channel blocker",
     "moa": "Arterial vasodilation via L-type calcium channel blockade.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1245,7 +1607,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.25,
         "max": 0.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Reflex tachycardia, hypotension.",
@@ -1255,15 +1617,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Dihydropyridine calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Common",
+      "Dihydropyridine calcium channel blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": true,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Clevidipine",
     "class": "Ultra-short DHP calcium channel blocker",
     "moa": "Arterial vasodilation; esterase metabolism.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1273,7 +1644,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/hr",
         "min": 1,
         "max": 16,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Lipid emulsion load, reflex tachycardia.",
@@ -1283,15 +1654,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Ultra-short DHP calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Ultra-short DHP calcium channel blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Nitroglycerin",
     "class": "Organic nitrate vasodilator",
     "moa": "NO-mediated venodilation > arterial dilation.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1301,7 +1680,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.5,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Headache, hypotension, tachyphylaxis, methemoglobinemia rare.",
@@ -1311,15 +1690,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Organic nitrate vasodilator"
-    ]
+      "Antihypertensive/vasodilator",
+      "Common",
+      "Organic nitrate vasodilator",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": true,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Nitroprusside",
     "class": "Direct NO donor vasodilator",
     "moa": "Arterial and venous vasodilation via NO.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1329,7 +1717,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg/min",
         "min": 0.3,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Cyanide/thiocyanate toxicity, increased ICP, coronary steal.",
@@ -1339,15 +1727,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Direct NO donor vasodilator"
-    ]
+      "Antihypertensive/vasodilator",
+      "Direct NO donor vasodilator",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Hydralazine",
     "class": "Direct arteriolar vasodilator",
     "moa": "Smooth muscle relaxation, likely NO/cGMP related.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1357,7 +1753,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 2.5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Unpredictable duration, reflex tachycardia.",
@@ -1367,15 +1763,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Direct arteriolar vasodilator"
-    ]
+      "Antihypertensive/vasodilator",
+      "Direct arteriolar vasodilator",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Adenosine",
     "class": "AV nodal blocker",
     "moa": "A1 receptor activation hyperpolarizes AV node.",
-    "category": "Vasoactive/cardiac",
+    "category": "Rescue/other",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1385,7 +1789,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 6,
         "max": 12,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Transient asystole, bronchospasm, flushing; reduce with central line/transplant, increase with methylxanthines.",
@@ -1395,15 +1799,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "AV nodal blocker"
-    ]
+      "AV nodal blocker",
+      "Rescue/other",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Amiodarone",
     "class": "Class III antiarrhythmic",
     "moa": "Potassium channel blockade plus sodium, calcium, beta effects.",
-    "category": "Vasoactive/cardiac",
+    "category": "Rescue/other",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1413,7 +1825,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 150,
         "max": 300,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, bradycardia, QT prolongation; chronic pulmonary/hepatic/thyroid toxicity.",
@@ -1423,15 +1835,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Class III antiarrhythmic"
-    ]
+      "Class III antiarrhythmic",
+      "Rescue/other",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Diltiazem",
     "class": "Non-DHP calcium channel blocker",
     "moa": "L-type calcium channel blockade slows AV node.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -1441,7 +1861,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 0.25,
         "max": 0.35,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, bradycardia; negative inotropy.",
@@ -1451,15 +1871,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Non-DHP calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Non-DHP calcium channel blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Verapamil",
     "class": "Non-DHP calcium channel blocker",
     "moa": "L-type calcium channel blockade slows AV node.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1469,7 +1897,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 2.5,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, bradycardia, negative inotropy.",
@@ -1479,15 +1907,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Non-DHP calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Non-DHP calcium channel blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Atropine",
     "class": "Tertiary antimuscarinic",
     "moa": "Muscarinic receptor antagonism increases SA/AV nodal activity.",
-    "category": "Vasoactive/cardiac",
+    "category": "Rescue/other",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1497,7 +1933,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.5,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, delirium, urinary retention.",
@@ -1507,9 +1943,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 13 Cardiac Physiology; Ch 79 Critical Care; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Vasoactive/cardiac",
-      "Tertiary antimuscarinic"
-    ]
+      "Rescue/other",
+      "Tertiary antimuscarinic",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: 0.02 mg/kg IV, minimum 0.1 mg, max single dose 0.5 mg child or 1 mg adolescent in many PALS-style protocols."
   },
   {
     "name": "Ondansetron",
@@ -1525,7 +1969,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 4,
         "max": 4,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "QT prolongation, constipation, headache.",
@@ -1535,9 +1979,17 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 68 Ambulatory; Ch 76 PACU; Ch 77 Pain",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "5-HT3 antagonist",
       "Antiemetic/GI",
-      "5-HT3 antagonist"
-    ]
+      "Common"
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Hepatic CYP metabolism.",
+    "excretion": "Renal and fecal metabolites.",
+    "duration": "Antiemetic effect several hours.",
+    "obesityConsiderations": "Fixed adult dose; no obesity adjustment. QT caution.",
+    "pediatricDosing": "Peds: 0.1 mg/kg IV, common max 4 mg."
   },
   {
     "name": "Dexamethasone",
@@ -1553,7 +2005,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 4,
         "max": 8,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hyperglycemia, perineal burning with rapid injection.",
@@ -1564,8 +2016,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Antiemetic/GI",
+      "Common",
       "Corticosteroid antiemetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Biologic duration 36-72 hr.",
+    "obesityConsiderations": "Fixed antiemetic dose; consider hyperglycemia and infection risk rather than obesity scalar.",
+    "pediatricDosing": "Peds: PONV 0.15 mg/kg IV, common max 4-8 mg depending protocol; airway edema doses differ."
   },
   {
     "name": "Droperidol",
@@ -1581,7 +2041,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.625,
         "max": 1.25,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "QT prolongation, sedation, extrapyramidal symptoms.",
@@ -1592,8 +2052,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Antiemetic/GI",
-      "Butyrophenone dopamine antagonist"
-    ]
+      "Butyrophenone dopamine antagonist",
+      "Common"
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Haloperidol",
@@ -1609,7 +2077,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.5,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "QT prolongation, EPS, sedation.",
@@ -1621,7 +2089,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Antiemetic/GI",
       "Butyrophenone antipsychotic/antiemetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Metoclopramide",
@@ -1637,7 +2112,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 10,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Akathisia/EPS, diarrhea; renal adjust repeated doses.",
@@ -1648,8 +2123,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Antiemetic/GI",
+      "Common",
       "D2 antagonist/prokinetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: 0.1-0.15 mg/kg IV; avoid in high EPS risk."
   },
   {
     "name": "Prochlorperazine",
@@ -1665,7 +2148,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Sedation, hypotension, EPS, QT.",
@@ -1677,7 +2160,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Antiemetic/GI",
       "Phenothiazine antiemetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Promethazine",
@@ -1693,7 +2183,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 6.25,
         "max": 12.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Sedation, tissue injury with IV extravasation; prefer deep IM or diluted slow IV per policy.",
@@ -1705,7 +2195,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Antiemetic/GI",
       "Phenothiazine antihistamine/antiemetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Scopolamine",
@@ -1721,7 +2218,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 1.5,
         "max": 1.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Dry mouth, blurry vision, urinary retention, delirium elderly.",
@@ -1733,7 +2230,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Antiemetic/GI",
       "Antimuscarinic antiemetic"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Famotidine",
@@ -1749,7 +2253,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 20,
         "max": 20,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Renal adjust repeated dosing; rare QT/CNS effects in severe renal failure.",
@@ -1760,8 +2264,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Antiemetic/GI",
+      "Common",
       "H2 blocker"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Pantoprazole",
@@ -1777,7 +2289,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 40,
         "max": 40,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Long-term risks not relevant to single dose; C. diff association chronic.",
@@ -1789,7 +2301,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Antiemetic/GI",
       "Proton pump inhibitor"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Sodium citrate",
@@ -1805,7 +2324,7 @@ window.PERIOP_DRUGS = [
         "unit": "mL fixed",
         "min": 30,
         "max": 30,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Nausea, aspiration still possible; short duration.",
@@ -1816,14 +2335,22 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Antiemetic/GI",
+      "Common",
       "Nonparticulate antacid"
-    ]
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": true,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Diphenhydramine",
     "class": "H1 antihistamine",
     "moa": "H1 receptor antagonism; anticholinergic effects.",
-    "category": "Rescue/adjunct",
+    "category": "Antiemetic/GI",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1833,7 +2360,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 25,
         "max": 50,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Sedation, delirium, anticholinergic effects.",
@@ -1843,15 +2370,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "H1 antihistamine"
-    ]
+      "Antiemetic/GI",
+      "H1 antihistamine",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Antiemetic/GI",
+    "common": false,
+    "metabolism": "Mostly hepatic metabolism with agent-specific exceptions.",
+    "excretion": "Renal/fecal metabolites.",
+    "duration": "Several hours for most perioperative antiemetics.",
+    "obesityConsiderations": "Usually fixed adult dosing; obesity rarely mandates dose escalation.",
+    "pediatricDosing": "Peds: use age/weight-specific dosing and max dose; verify QT/EPS warnings."
   },
   {
     "name": "Albuterol",
     "class": "Beta-2 agonist bronchodilator",
     "moa": "Beta-2 agonism relaxes bronchial smooth muscle.",
-    "category": "Rescue/adjunct",
+    "category": "Pulmonary",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1861,7 +2396,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 2.5,
         "max": 2.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, hypokalemia, tremor.",
@@ -1871,15 +2406,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Beta-2 agonist bronchodilator"
-    ]
+      "Beta-2 agonist bronchodilator",
+      "Common",
+      "Pulmonary",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Pulmonary",
+    "common": true,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: nebulized 2.5 mg typical, smaller infants/children may use 1.25 mg; titrate to bronchospasm."
   },
   {
     "name": "Ipratropium",
     "class": "Inhaled antimuscarinic bronchodilator",
     "moa": "Muscarinic antagonism reduces bronchoconstriction.",
-    "category": "Rescue/adjunct",
+    "category": "Pulmonary",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1889,7 +2433,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.5,
         "max": 0.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Dry mouth, urinary retention rare.",
@@ -1899,15 +2443,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Inhaled antimuscarinic bronchodilator"
-    ]
+      "Inhaled antimuscarinic bronchodilator",
+      "Pulmonary",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Magnesium sulfate",
     "class": "Divalent cation/antiarrhythmic/bronchodilator",
     "moa": "Calcium antagonism, NMDA antagonism, stabilizes myocardium.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1917,7 +2469,7 @@ window.PERIOP_DRUGS = [
         "unit": "g fixed",
         "min": 1,
         "max": 2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, weakness, potentiates NMB; renal excretion.",
@@ -1927,15 +2479,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Divalent cation/antiarrhythmic/bronchodilator"
-    ]
+      "Common",
+      "Divalent cation/antiarrhythmic/bronchodilator",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: 25-50 mg/kg IV for torsades/status asthmaticus/eclampsia-type indications, max varies."
   },
   {
     "name": "Calcium chloride",
     "class": "Calcium salt",
     "moa": "Raises ionized calcium; membrane stabilization in hyperkalemia.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1945,7 +2506,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 500,
         "max": 1000,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tissue necrosis with extravasation; more elemental calcium than gluconate.",
@@ -1955,15 +2516,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Calcium salt"
-    ]
+      "Calcium salt",
+      "Common",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: 10-20 mg/kg IV for severe hypocalcemia/hyperkalemia/arrest protocol; central line preferred."
   },
   {
     "name": "Calcium gluconate",
     "class": "Calcium salt",
     "moa": "Raises ionized calcium; membrane stabilization in hyperkalemia.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -1973,7 +2543,7 @@ window.PERIOP_DRUGS = [
         "unit": "g fixed",
         "min": 1,
         "max": 3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Less caustic than CaCl; slower elemental calcium delivery.",
@@ -1983,15 +2553,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Calcium salt"
-    ]
+      "Calcium salt",
+      "Common",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: 30-60 mg/kg IV depending indication; verify elemental calcium/protocol."
   },
   {
     "name": "Sodium bicarbonate",
     "class": "Buffer/alkalinizing agent",
     "moa": "Increases serum bicarbonate and pH; shifts potassium intracellularly.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2001,7 +2580,7 @@ window.PERIOP_DRUGS = [
         "unit": "mEq/kg",
         "min": 0.5,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypernatremia, alkalosis, CO2 generation, hypocalcemia.",
@@ -2011,15 +2590,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Buffer/alkalinizing agent"
-    ]
+      "Buffer/alkalinizing agent",
+      "Common",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: 1 mEq/kg IV for selected severe acidosis/hyperkalemia protocols."
   },
   {
     "name": "Dextrose 50%",
     "class": "Carbohydrate",
     "moa": "Provides glucose.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2029,7 +2617,7 @@ window.PERIOP_DRUGS = [
         "unit": "g fixed",
         "min": 25,
         "max": 25,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hyperglycemia, extravasation injury.",
@@ -2039,15 +2627,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Carbohydrate"
-    ]
+      "Carbohydrate",
+      "Common",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: avoid D50 in small children; use age-appropriate dextrose concentration. Dose dextrose 0.25-0.5 g/kg."
   },
   {
     "name": "Regular insulin",
     "class": "Short-acting insulin",
     "moa": "Insulin receptor activation shifts K intracellularly and lowers glucose.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2057,7 +2654,7 @@ window.PERIOP_DRUGS = [
         "unit": "units fixed",
         "min": 5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypoglycemia, hypokalemia; monitor glucose.",
@@ -2067,15 +2664,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
+      "Electrolyte/metabolic",
       "Rescue/adjunct",
       "Short-acting insulin"
-    ]
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": true,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: hyperkalemia often 0.1 units/kg IV with dextrose per protocol; glucose monitoring mandatory."
   },
   {
     "name": "Glucagon",
     "class": "Counter-regulatory hormone",
     "moa": "Increases cAMP independent of beta receptors; inotropy/chronotropy in beta-blocker toxicity.",
-    "category": "Rescue/adjunct",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2085,7 +2691,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 1,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Vomiting, hyperglycemia; airway risk if obtunded.",
@@ -2095,15 +2701,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Counter-regulatory hormone"
-    ]
+      "Counter-regulatory hormone",
+      "Electrolyte/metabolic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": false,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Mannitol",
     "class": "Osmotic diuretic",
     "moa": "Increases plasma osmolality; reduces brain water.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2113,7 +2727,7 @@ window.PERIOP_DRUGS = [
         "unit": "g/kg",
         "min": 0.25,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypovolemia, hyperosmolality, renal stress.",
@@ -2123,15 +2737,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Osmotic diuretic",
       "Rescue/adjunct",
-      "Osmotic diuretic"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Hypertonic saline 3%",
     "class": "Hyperosmolar therapy",
     "moa": "Raises serum sodium/osmolality to reduce cerebral edema.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2141,7 +2763,7 @@ window.PERIOP_DRUGS = [
         "unit": "mL/kg",
         "min": 2,
         "max": 5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypernatremia, osmotic demyelination if chronic hyponatremia corrected too fast.",
@@ -2151,15 +2773,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Hyperosmolar therapy",
       "Rescue/adjunct",
-      "Hyperosmolar therapy"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Furosemide",
     "class": "Loop diuretic",
     "moa": "Inhibits NKCC2 in thick ascending limb.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2169,7 +2799,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 10,
         "max": 40,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypokalemia, hypovolemia, ototoxicity high dose.",
@@ -2179,15 +2809,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Loop diuretic",
       "Rescue/adjunct",
-      "Loop diuretic"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Desmopressin",
     "class": "V2 agonist",
     "moa": "Increases vWF/FVIII release; antidiuretic effect.",
-    "category": "Rescue/adjunct",
+    "category": "Coagulation/reversal",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2197,7 +2835,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg/kg",
         "min": 0.3,
         "max": 0.3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hyponatremia, thrombosis rare, tachyphylaxis.",
@@ -2207,15 +2845,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Coagulation/reversal",
       "Rescue/adjunct",
       "V2 agonist"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Heparin",
     "class": "Unfractionated anticoagulant",
     "moa": "Potentiates antithrombin inhibition of thrombin/Xa.",
-    "category": "Rescue/adjunct",
+    "category": "Coagulation/reversal",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2225,7 +2871,7 @@ window.PERIOP_DRUGS = [
         "unit": "units/kg",
         "min": 50,
         "max": 100,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bleeding, HIT, osteoporosis long term.",
@@ -2235,15 +2881,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Coagulation/reversal",
+      "Common",
       "Rescue/adjunct",
       "Unfractionated anticoagulant"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": true,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Protamine",
     "class": "Heparin reversal protein",
     "moa": "Cationic protein complexes with heparin.",
-    "category": "Rescue/adjunct",
+    "category": "Coagulation/reversal",
     "defaultScalar": "Custom",
     "doses": [
       {
@@ -2253,7 +2908,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg per 100 units",
         "min": 1,
         "max": 1,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension, pulmonary HTN, anaphylactoid reaction; give slowly.",
@@ -2263,15 +2918,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Heparin reversal protein"
-    ]
+      "Coagulation/reversal",
+      "Common",
+      "Heparin reversal protein",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": true,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Tranexamic acid",
     "class": "Antifibrinolytic",
     "moa": "Lysine analog inhibits plasminogen activation.",
-    "category": "Rescue/adjunct",
+    "category": "Coagulation/reversal",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2281,7 +2945,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 10,
         "max": 15,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Seizure risk high dose, thrombosis concern context-dependent; renal adjust.",
@@ -2291,15 +2955,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Antifibrinolytic"
-    ]
+      "Antifibrinolytic",
+      "Coagulation/reversal",
+      "Common",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": true,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: commonly 10-15 mg/kg IV loading, infusion varies by procedure and protocol."
   },
   {
     "name": "Aminocaproic acid",
     "class": "Antifibrinolytic",
     "moa": "Lysine analog inhibits plasminogen activation.",
-    "category": "Rescue/adjunct",
+    "category": "Coagulation/reversal",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2309,7 +2982,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 75,
         "max": 150,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension if rapid, thrombosis concern, renal adjust.",
@@ -2319,15 +2992,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Antifibrinolytic"
-    ]
+      "Antifibrinolytic",
+      "Coagulation/reversal",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Dantrolene",
     "class": "RyR1 antagonist",
     "moa": "Reduces skeletal muscle calcium release.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2337,7 +3018,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 2.5,
         "max": 10,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Weakness, hepatotoxicity with chronic use, large reconstitution burden.",
@@ -2348,14 +3029,22 @@ window.PERIOP_DRUGS = [
     "millerPage": "chapter ref only, page not verified",
     "tags": [
       "Rescue/adjunct",
+      "Rescue/other",
       "RyR1 antagonist"
-    ]
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Lipid emulsion 20%",
     "class": "Lipid sink/rescue therapy",
     "moa": "Sequesters lipophilic toxins; supports fatty-acid substrate.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2365,7 +3054,7 @@ window.PERIOP_DRUGS = [
         "unit": "mL/kg",
         "min": 1.5,
         "max": 1.5,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Pancreatitis/lab interference after large dose; use LAST protocol.",
@@ -2375,15 +3064,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Lipid sink/rescue therapy",
       "Rescue/adjunct",
-      "Lipid sink/rescue therapy"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Methylene blue",
     "class": "Guanylate cyclase inhibitor",
     "moa": "Inhibits NO-cGMP vasodilation; treats methemoglobinemia.",
-    "category": "Rescue/adjunct",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
@@ -2393,7 +3090,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 1,
         "max": 2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Serotonin syndrome, hemolysis in G6PD deficiency, pulse ox artifact.",
@@ -2403,15 +3100,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Guanylate cyclase inhibitor",
       "Rescue/adjunct",
-      "Guanylate cyclase inhibitor"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Oxytocin",
     "class": "Uterotonic peptide hormone",
     "moa": "Oxytocin receptor agonism increases uterine contraction.",
-    "category": "Rescue/adjunct",
+    "category": "OB uterotonic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2421,7 +3126,7 @@ window.PERIOP_DRUGS = [
         "unit": "units fixed",
         "min": 1,
         "max": 3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Hypotension with rapid bolus, tachycardia, water intoxication high dose.",
@@ -2431,15 +3136,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
+      "OB uterotonic",
       "Rescue/adjunct",
       "Uterotonic peptide hormone"
-    ]
+    ],
+    "displayClass": "OB uterotonic",
+    "common": true,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Methylergonovine",
     "class": "Ergot uterotonic",
     "moa": "Serotonergic/alpha agonist causes sustained uterine contraction.",
-    "category": "Rescue/adjunct",
+    "category": "OB uterotonic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2449,7 +3163,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.2,
         "max": 0.2,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Severe hypertension, coronary vasospasm.",
@@ -2459,15 +3173,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Ergot uterotonic"
-    ]
+      "Ergot uterotonic",
+      "OB uterotonic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "OB uterotonic",
+    "common": false,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Carboprost",
     "class": "PGF2-alpha analog uterotonic",
     "moa": "Prostaglandin receptor agonism contracts uterus.",
-    "category": "Rescue/adjunct",
+    "category": "OB uterotonic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2477,7 +3199,7 @@ window.PERIOP_DRUGS = [
         "unit": "mcg fixed",
         "min": 250,
         "max": 250,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Bronchospasm, diarrhea, fever.",
@@ -2487,15 +3209,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "PGF2-alpha analog uterotonic"
-    ]
+      "OB uterotonic",
+      "PGF2-alpha analog uterotonic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "OB uterotonic",
+    "common": false,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Terbutaline",
     "class": "Beta-2 agonist tocolytic/bronchodilator",
     "moa": "Beta-2 agonism relaxes uterine/bronchial smooth muscle.",
-    "category": "Rescue/adjunct",
+    "category": "OB uterotonic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2505,7 +3235,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 0.25,
         "max": 0.25,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Tachycardia, hypokalemia, hyperglycemia.",
@@ -2515,15 +3245,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 29 Coexisting Disease; Ch 43 Fluids; Ch 46 Coagulation; Ch 58 Obstetrics; Ch 82 ACLS",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Rescue/adjunct",
-      "Beta-2 agonist tocolytic/bronchodilator"
-    ]
+      "Beta-2 agonist tocolytic/bronchodilator",
+      "OB uterotonic",
+      "Rescue/adjunct"
+    ],
+    "displayClass": "OB uterotonic",
+    "common": false,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "name": "Lidocaine local",
     "class": "Amide local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "LBW",
     "doses": [
       {
@@ -2533,7 +3271,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 4.5,
         "max": 7,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "LAST; reduce total dose for frailty, pregnancy, hepatic disease, low CO.",
@@ -2543,15 +3281,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Amide local anesthetic"
-    ]
+      "Amide local anesthetic",
+      "Common",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": true,
+    "metabolism": "Hepatic amide metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Depends on block site; infiltration often 1-2 hr, longer with epinephrine.",
+    "obesityConsiderations": "Calculate max dose using LBW/IBW or capped institutional max in obesity.",
+    "pediatricDosing": "Peds: max local anesthetic dose should be weight-based and lower in infants; verify block-specific dose and institutional max."
   },
   {
     "name": "Bupivacaine",
     "class": "Amide local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "LBW",
     "doses": [
       {
@@ -2561,7 +3308,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 2.5,
         "max": 3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Higher cardiotoxicity; LAST with refractory arrhythmias.",
@@ -2571,15 +3318,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Amide local anesthetic"
-    ]
+      "Amide local anesthetic",
+      "Common",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": true,
+    "metabolism": "Hepatic amide metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Peripheral block often 6-12 hr, neuraxial shorter; dose/site dependent.",
+    "obesityConsiderations": "Use conservative max dose in obesity; high cardiotoxicity risk.",
+    "pediatricDosing": "Peds: use conservative mg/kg max, especially infants; regional dosing is block and age specific."
   },
   {
     "name": "Ropivacaine",
     "class": "Amide local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "LBW",
     "doses": [
       {
@@ -2589,7 +3345,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 3,
         "max": 3,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Less cardiotoxic than bupivacaine but LAST still possible.",
@@ -2599,15 +3355,24 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Amide local anesthetic"
-    ]
+      "Amide local anesthetic",
+      "Common",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": true,
+    "metabolism": "Hepatic CYP metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Peripheral block often 5-8 hr, dose/site dependent.",
+    "obesityConsiderations": "Use conservative max dose in obesity; less cardiotoxic than bupivacaine but not benign.",
+    "pediatricDosing": "Peds: regional dosing is block and age specific; use institutional pediatric regional reference."
   },
   {
     "name": "Mepivacaine",
     "class": "Amide local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "LBW",
     "doses": [
       {
@@ -2617,7 +3382,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 4.5,
         "max": 7,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "LAST; avoid large obstetric paracervical doses.",
@@ -2627,15 +3392,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Amide local anesthetic"
-    ]
+      "Amide local anesthetic",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": false,
+    "metabolism": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Site and agent dependent, minutes to many hours.",
+    "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
   },
   {
     "name": "Chloroprocaine",
     "class": "Ester local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "LBW",
     "doses": [
       {
@@ -2645,7 +3418,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg/kg",
         "min": 11,
         "max": 12,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "PABA metabolite allergy possible; rapid metabolism.",
@@ -2655,15 +3428,23 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Ester local anesthetic"
-    ]
+      "Ester local anesthetic",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": false,
+    "metabolism": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Site and agent dependent, minutes to many hours.",
+    "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
   },
   {
     "name": "Tetracaine",
     "class": "Ester local anesthetic",
     "moa": "Voltage-gated sodium channel blockade.",
-    "category": "Local/Inhaled",
+    "category": "Local anesthetic",
     "defaultScalar": "Fixed",
     "doses": [
       {
@@ -2673,7 +3454,7 @@ window.PERIOP_DRUGS = [
         "unit": "mg fixed",
         "min": 5,
         "max": 15,
-        "name": "Primary"
+        "name": "Adult"
       }
     ],
     "cautions": "Long duration spinal; hypotension/urinary retention.",
@@ -2683,25 +3464,33 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
-      "Local/Inhaled",
-      "Ester local anesthetic"
-    ]
+      "Ester local anesthetic",
+      "Local anesthetic",
+      "Local/Inhaled"
+    ],
+    "displayClass": "Local anesthetic",
+    "common": false,
+    "metabolism": "Ester local anesthetics: plasma cholinesterase. Amide local anesthetics: hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Site and agent dependent, minutes to many hours.",
+    "obesityConsiderations": "Calculate max dose conservatively, often not full ABW in severe obesity.",
+    "pediatricDosing": "Peds: local anesthetic max dose is age, weight, site, and additive dependent; infants require lower dosing."
   },
   {
     "name": "Sevoflurane",
     "class": "Volatile anesthetic",
     "moa": "Multiple CNS targets including GABA/glycine/two-pore K channels; immobility via spinal effects.",
-    "category": "Local/Inhaled",
+    "category": "Volatile/inhaled",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "label": "Adult MAC about 2%; titrate age-adjusted ET concentration",
-        "route": "Regional/Inhaled",
-        "scalar": "Titrated",
-        "unit": "MAC %",
-        "min": 2,
-        "max": 2,
-        "name": "Primary"
+        "label": "Age-adjusted MAC from MAC40 2.0%; display shows 0.7, 1.0, and 1.3 MAC targets",
+        "route": "Inhaled",
+        "scalar": "AgeMAC",
+        "unit": "MAC_age",
+        "min": 2.0,
+        "max": 2.0,
+        "name": "Age MAC"
       }
     ],
     "cautions": "MH trigger, hypotension, compound A concern low-flow historical.",
@@ -2711,25 +3500,35 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Local/Inhaled",
-      "Volatile anesthetic"
-    ]
+      "Volatile anesthetic",
+      "Volatile/inhaled"
+    ],
+    "displayClass": "Volatile/inhaled",
+    "common": true,
+    "metabolism": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism.",
+    "excretion": "Exhaled through lungs; minimal renal excretion of metabolites.",
+    "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
+    "pediatricDosing": "Peds: MAC is age dependent and higher in infants/children than adults; titrate end-tidal concentration to effect.",
+    "mac40": 2.0
   },
   {
     "name": "Desflurane",
     "class": "Volatile anesthetic",
     "moa": "Volatile anesthetic CNS/spinal effects.",
-    "category": "Local/Inhaled",
+    "category": "Volatile/inhaled",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "label": "Adult MAC about 6%; titrate age-adjusted ET concentration",
-        "route": "Regional/Inhaled",
-        "scalar": "Titrated",
-        "unit": "MAC %",
-        "min": 6,
-        "max": 6,
-        "name": "Primary"
+        "label": "Age-adjusted MAC from MAC40 6.0%; display shows 0.7, 1.0, and 1.3 MAC targets",
+        "route": "Inhaled",
+        "scalar": "AgeMAC",
+        "unit": "MAC_age",
+        "min": 6.0,
+        "max": 6.0,
+        "name": "Age MAC"
       }
     ],
     "cautions": "Airway irritant, sympathetic stimulation with rapid increases, high GWP.",
@@ -2739,25 +3538,35 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Local/Inhaled",
-      "Volatile anesthetic"
-    ]
+      "Volatile anesthetic",
+      "Volatile/inhaled"
+    ],
+    "displayClass": "Volatile/inhaled",
+    "common": true,
+    "metabolism": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism.",
+    "excretion": "Exhaled through lungs; minimal renal excretion of metabolites.",
+    "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
+    "pediatricDosing": "Peds: MAC is age dependent; airway irritation limits use for inhalation induction.",
+    "mac40": 6.0
   },
   {
     "name": "Isoflurane",
     "class": "Volatile anesthetic",
     "moa": "Volatile anesthetic CNS/spinal effects.",
-    "category": "Local/Inhaled",
+    "category": "Volatile/inhaled",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "label": "Adult MAC about 1.2%; titrate age-adjusted ET concentration",
-        "route": "Regional/Inhaled",
-        "scalar": "Titrated",
-        "unit": "MAC %",
+        "label": "Age-adjusted MAC from MAC40 1.2%; display shows 0.7, 1.0, and 1.3 MAC targets",
+        "route": "Inhaled",
+        "scalar": "AgeMAC",
+        "unit": "MAC_age",
         "min": 1.2,
         "max": 1.2,
-        "name": "Primary"
+        "name": "Age MAC"
       }
     ],
     "cautions": "Hypotension, pungent, coronary steal theoretical.",
@@ -2767,25 +3576,35 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Common",
       "Local/Inhaled",
-      "Volatile anesthetic"
-    ]
+      "Volatile anesthetic",
+      "Volatile/inhaled"
+    ],
+    "displayClass": "Volatile/inhaled",
+    "common": true,
+    "metabolism": "Primarily eliminated unchanged via exhalation; limited agent-specific metabolism.",
+    "excretion": "Exhaled through lungs; minimal renal excretion of metabolites.",
+    "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
+    "pediatricDosing": "Peds: MAC is age dependent; titrate end-tidal concentration to effect.",
+    "mac40": 1.2
   },
   {
     "name": "Nitrous oxide",
     "class": "Inhaled anesthetic gas",
     "moa": "NMDA antagonism; weak anesthetic, analgesic.",
-    "category": "Local/Inhaled",
+    "category": "Volatile/inhaled",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "label": "MAC 104%; usually 30-70% adjunct",
-        "route": "Regional/Inhaled",
-        "scalar": "Titrated",
-        "unit": "% inspired",
-        "min": 30,
-        "max": 70,
-        "name": "Primary"
+        "label": "Age-adjusted MAC from MAC40 105%; display shows 0.7, 1.0, and 1.3 MAC targets",
+        "route": "Inhaled",
+        "scalar": "AgeMAC",
+        "unit": "MAC_age",
+        "min": 105,
+        "max": 105,
+        "name": "Age MAC"
       }
     ],
     "cautions": "Expands closed gas spaces, PONV, diffusion hypoxia, B12 inhibition.",
@@ -2795,9 +3614,18 @@ window.PERIOP_DRUGS = [
     "millerRef": "Ch 17-19 Inhaled Anesthetics; Ch 25 Local Anesthetics",
     "millerPage": "chapter ref only, page not verified",
     "tags": [
+      "Inhaled anesthetic gas",
       "Local/Inhaled",
-      "Inhaled anesthetic gas"
-    ]
+      "Volatile/inhaled"
+    ],
+    "displayClass": "Volatile/inhaled",
+    "common": false,
+    "metabolism": "Eliminated essentially unchanged via exhalation.",
+    "excretion": "Exhaled through lungs; minimal renal excretion of metabolites.",
+    "duration": "Offset depends on blood-gas solubility, ventilation, duration, and uptake; desflurane/nitrous fastest, sevoflurane intermediate, isoflurane slower.",
+    "obesityConsiderations": "MAC is reduced by age and coadministered agents; obesity mainly affects uptake/recovery kinetics rather than MAC calculation.",
+    "pediatricDosing": "Peds: adjunct concentration commonly up to 50-70% with oxygen depending setting; avoid contraindications.",
+    "mac40": 105
   },
   {
     "id": "lorazepam",
@@ -2808,7 +3636,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.5-2 mg IV/PO titrated",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -2823,9 +3651,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Sedative",
-      "Benzodiazepine"
-    ]
+      "Benzodiazepine",
+      "Sedative"
+    ],
+    "displayClass": "Sedative",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "diazepam",
@@ -2836,7 +3671,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2-5 mg IV/PO titrated",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -2851,20 +3686,27 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Sedative",
-      "Benzodiazepine"
-    ]
+      "Benzodiazepine",
+      "Sedative"
+    ],
+    "displayClass": "Sedative",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "clonidine",
     "name": "Clonidine",
     "class": "Alpha-2 agonist",
     "moa": "Central alpha-2 agonism reducing sympathetic outflow.",
-    "category": "Sedative adjunct",
+    "category": "Sedative",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "PO premed commonly 0.1-0.2 mg adult",
         "route": "PO",
         "scalar": "Fixed",
@@ -2879,9 +3721,17 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Sedative adjunct",
-      "Alpha-2 agonist"
-    ]
+      "Alpha-2 agonist",
+      "Sedative",
+      "Sedative adjunct"
+    ],
+    "displayClass": "Sedative",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "naloxone",
@@ -2892,7 +3742,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.04-0.4 mg IV increments; infusion may be needed",
         "route": "IV",
         "scalar": "Fixed",
@@ -2907,9 +3757,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Reversal/rescue",
-      "Opioid antagonist"
-    ]
+      "Opioid antagonist",
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "flumazenil",
@@ -2920,7 +3777,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.2 mg IV q60 sec to effect, usual max 1 mg",
         "route": "IV",
         "scalar": "Fixed",
@@ -2935,9 +3792,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Reversal/rescue",
-      "Benzodiazepine antagonist"
-    ]
+      "Benzodiazepine antagonist",
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "nalmefene",
@@ -2948,7 +3812,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.25-1 mcg/kg IV titrated or small adult increments",
         "route": "IV",
         "scalar": "Fixed",
@@ -2963,9 +3827,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Reversal/rescue",
-      "Opioid antagonist"
-    ]
+      "Opioid antagonist",
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "nalbuphine",
@@ -2976,7 +3847,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2.5-5 mg IV increments for pruritus or analgesia",
         "route": "IV",
         "scalar": "Fixed",
@@ -2991,9 +3862,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Opioid",
-      "Kappa agonist, mu antagonist opioid"
-    ]
+      "Kappa agonist, mu antagonist opioid",
+      "Opioid"
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "id": "butorphanol",
@@ -3004,7 +3882,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.5-2 mg IV/IM",
         "route": "IV/IM",
         "scalar": "Fixed",
@@ -3019,20 +3897,27 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Opioid",
-      "Mixed opioid agonist-antagonist"
-    ]
+      "Mixed opioid agonist-antagonist",
+      "Opioid"
+    ],
+    "displayClass": "Opioid",
+    "common": false,
+    "metabolism": "Primarily hepatic metabolism except remifentanil by esterases.",
+    "excretion": "Renal/biliary excretion of metabolites varies by agent.",
+    "duration": "Minutes to hours depending on lipid solubility and context-sensitive half-time.",
+    "obesityConsiderations": "Use conservative titrated dosing in obesity and OSA; avoid unbounded ABW escalation.",
+    "pediatricDosing": "Peds: opioid dosing is weight-based, age-sensitive, and OSA-sensitive; use pediatric pain/anesthesia reference and titrate."
   },
   {
     "id": "remimazolam",
     "name": "Remimazolam",
     "class": "Ultra-short benzodiazepine",
     "moa": "Ester-metabolized benzodiazepine acting at GABA-A receptor.",
-    "category": "Sedative",
+    "category": "Hypnotic",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Procedural sedation 2.5-5 mg IV bolus; titrate per label",
         "route": "IV",
         "scalar": "ABW",
@@ -3047,20 +3932,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Hypnotic",
       "Sedative",
       "Ultra-short benzodiazepine"
-    ]
+    ],
+    "displayClass": "Hypnotic",
+    "common": false,
+    "metabolism": "Hepatic and/or extrahepatic metabolism depending on agent.",
+    "excretion": "Mostly renal/biliary metabolites.",
+    "duration": "Short bolus effect; longer after infusion or repeated dosing.",
+    "obesityConsiderations": "Use LBW/IBW/AdjBW strategy and titrate to hemodynamics, age, and shock physiology.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "cefazolin",
     "name": "Cefazolin",
     "class": "First-generation cephalosporin",
     "moa": "Beta-lactam inhibition of bacterial cell wall synthesis.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2 g IV; 3 g IV if >=120 kg",
         "route": "IV",
         "scalar": "Fixed",
@@ -3075,20 +3968,29 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
+      "Common",
       "First-generation cephalosporin"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": true,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: 30 mg/kg IV, common max 2 g or 3 g by weight/protocol."
   },
   {
     "id": "vancomycin",
     "name": "Vancomycin",
     "class": "Glycopeptide antibiotic",
     "moa": "Inhibits bacterial cell wall synthesis via D-Ala-D-Ala binding.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "15 mg/kg IV, start early due infusion time",
         "route": "IV",
         "scalar": "ABW",
@@ -3103,20 +4005,29 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
+      "Common",
       "Glycopeptide antibiotic"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": true,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: 15 mg/kg IV, timing and levels per protocol."
   },
   {
     "id": "clindamycin",
     "name": "Clindamycin",
     "class": "Lincosamide antibiotic",
     "moa": "Inhibits 50S ribosomal protein synthesis.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "900 mg IV adult prophylaxis",
         "route": "IV",
         "scalar": "Fixed",
@@ -3131,20 +4042,29 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
+      "Common",
       "Lincosamide antibiotic"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": true,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: 10 mg/kg IV, max commonly 900 mg."
   },
   {
     "id": "gentamicin",
     "name": "Gentamicin",
     "class": "Aminoglycoside antibiotic",
     "moa": "30S ribosomal inhibition; concentration-dependent killing.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "AdjBW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "3-5 mg/kg IV depending indication and renal function",
         "route": "IV",
         "scalar": "AdjBW",
@@ -3159,20 +4079,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Antibiotic prophylaxis",
-      "Aminoglycoside antibiotic"
-    ]
+      "Aminoglycoside antibiotic",
+      "Antibiotic",
+      "Antibiotic prophylaxis"
+    ],
+    "displayClass": "Antibiotic",
+    "common": false,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: 2.5 mg/kg traditional or extended-interval dosing per age/renal function; levels required."
   },
   {
     "id": "metronidazole",
     "name": "Metronidazole",
     "class": "Nitroimidazole antibiotic",
     "moa": "DNA strand disruption in anaerobes and protozoa.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "500 mg IV",
         "route": "IV",
         "scalar": "Fixed",
@@ -3187,20 +4115,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
       "Nitroimidazole antibiotic"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": false,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
   },
   {
     "id": "cefoxitin",
     "name": "Cefoxitin",
     "class": "Second-generation cephalosporin",
     "moa": "Beta-lactam cell wall inhibition with anaerobic coverage.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2 g IV adult prophylaxis",
         "route": "IV",
         "scalar": "Fixed",
@@ -3215,20 +4151,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
       "Second-generation cephalosporin"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": false,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
   },
   {
     "id": "ceftriaxone",
     "name": "Ceftriaxone",
     "class": "Third-generation cephalosporin",
     "moa": "Beta-lactam cell wall inhibition.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "1-2 g IV depending indication",
         "route": "IV",
         "scalar": "Fixed",
@@ -3243,20 +4187,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
       "Third-generation cephalosporin"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": false,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
   },
   {
     "id": "aztreonam",
     "name": "Aztreonam",
     "class": "Monobactam antibiotic",
     "moa": "Beta-lactam active against gram-negative aerobes.",
-    "category": "Antibiotic prophylaxis",
+    "category": "Antibiotic",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "1-2 g IV adult dose",
         "route": "IV",
         "scalar": "Fixed",
@@ -3271,9 +4223,17 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antibiotic",
       "Antibiotic prophylaxis",
       "Monobactam antibiotic"
-    ]
+    ],
+    "displayClass": "Antibiotic",
+    "common": false,
+    "metabolism": "Agent-specific hepatic/renal handling.",
+    "excretion": "Renal excretion common, but varies by agent.",
+    "duration": "Prophylaxis redosing interval depends on half-life and blood loss.",
+    "obesityConsiderations": "Commonly ABW-based with caps; cefazolin often 3 g if weight >=120 kg per many protocols.",
+    "pediatricDosing": "Peds: weight-based prophylaxis required; use pediatric antimicrobial reference, renal function, and max adult dose cap."
   },
   {
     "id": "hydrocortisone",
@@ -3284,7 +4244,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Stress dose often 50-100 mg IV depending surgical stress",
         "route": "IV",
         "scalar": "Fixed",
@@ -3299,9 +4259,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Steroid/endocrine",
-      "Glucocorticoid"
-    ]
+      "Glucocorticoid",
+      "Steroid/endocrine"
+    ],
+    "displayClass": "Steroid/endocrine",
+    "common": false,
+    "metabolism": "Hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Biologic effect often much longer than plasma half-life.",
+    "obesityConsiderations": "Fixed stress or antiemetic dosing; obesity dosing is indication-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "methylprednisolone",
@@ -3312,7 +4279,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "40-125 mg IV depending indication",
         "route": "IV",
         "scalar": "Fixed",
@@ -3327,9 +4294,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Steroid/endocrine",
-      "Glucocorticoid"
-    ]
+      "Glucocorticoid",
+      "Steroid/endocrine"
+    ],
+    "displayClass": "Steroid/endocrine",
+    "common": false,
+    "metabolism": "Hepatic metabolism.",
+    "excretion": "Renal excretion of metabolites.",
+    "duration": "Biologic effect often much longer than plasma half-life.",
+    "obesityConsiderations": "Fixed stress or antiemetic dosing; obesity dosing is indication-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "vitamin-k",
@@ -3340,7 +4314,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "1-10 mg IV/PO depending urgency and INR",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -3357,7 +4331,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Vitamin K derivative"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "4-factor-pcc",
@@ -3368,7 +4349,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by INR, weight, product, and institutional protocol",
         "route": "IV",
         "scalar": "Custom",
@@ -3385,7 +4366,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Prothrombin complex concentrate"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "andexanet-alfa",
@@ -3396,7 +4384,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Low- or high-dose regimen per agent, dose, and timing",
         "route": "IV",
         "scalar": "Custom",
@@ -3413,7 +4401,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Factor Xa inhibitor reversal"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "idarucizumab",
@@ -3424,7 +4419,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "5 g IV total, usually two 2.5 g doses",
         "route": "IV",
         "scalar": "Fixed",
@@ -3441,7 +4436,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Dabigatran reversal antibody fragment"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "fibrinogen-concentrate",
@@ -3452,7 +4454,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by fibrinogen level/viscoelastic testing/product protocol",
         "route": "IV",
         "scalar": "Custom",
@@ -3469,7 +4471,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Fibrinogen replacement"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "bivalirudin",
@@ -3480,7 +4489,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Protocol dependent bolus/infusion; renal adjustment needed",
         "route": "IV",
         "scalar": "ABW",
@@ -3497,18 +4506,25 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Coagulation/reversal",
       "Direct thrombin inhibitor"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "aspirin",
     "name": "Aspirin",
     "class": "Antiplatelet",
     "moa": "Irreversible COX-1 platelet inhibition reducing thromboxane A2.",
-    "category": "Cardiac/antiplatelet",
+    "category": "Coagulation/reversal",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "81-325 mg PO depending indication",
         "route": "PO",
         "scalar": "Fixed",
@@ -3523,20 +4539,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Antiplatelet",
       "Cardiac/antiplatelet",
-      "Antiplatelet"
-    ]
+      "Coagulation/reversal"
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "cangrelor",
     "name": "Cangrelor",
     "class": "IV P2Y12 inhibitor",
     "moa": "Reversible platelet P2Y12 ADP receptor antagonist.",
-    "category": "Cardiac/antiplatelet",
+    "category": "Coagulation/reversal",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "PCI dosing 30 mcg/kg bolus then 4 mcg/kg/min",
         "route": "IV",
         "scalar": "ABW",
@@ -3552,8 +4576,16 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Cardiac/antiplatelet",
+      "Coagulation/reversal",
       "IV P2Y12 inhibitor"
-    ]
+    ],
+    "displayClass": "Coagulation/reversal",
+    "common": false,
+    "metabolism": "Agent-specific enzymatic or reticuloendothelial clearance.",
+    "excretion": "Renal/hepatic clearance varies.",
+    "duration": "Depends on coagulation endpoint and underlying anticoagulant.",
+    "obesityConsiderations": "Use protocolized dosing, lab guidance, and caps rather than simple obesity scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "levetiracetam",
@@ -3564,7 +4596,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "500-1500 mg IV/PO adult load/maintenance varies",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -3579,9 +4611,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Neuro/rescue",
-      "Antiseizure medication"
-    ]
+      "Antiseizure medication",
+      "Neuro/rescue"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "fosphenytoin",
@@ -3592,7 +4631,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "15-20 mg PE/kg IV load",
         "route": "IV",
         "scalar": "ABW",
@@ -3607,9 +4646,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Neuro/rescue",
-      "Antiseizure prodrug"
-    ]
+      "Antiseizure prodrug",
+      "Neuro/rescue"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "phenytoin",
@@ -3620,7 +4666,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "10-20 mg/kg IV load",
         "route": "IV",
         "scalar": "ABW",
@@ -3635,9 +4681,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Neuro/rescue",
-      "Antiseizure medication"
-    ]
+      "Antiseizure medication",
+      "Neuro/rescue"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "phenobarbital",
@@ -3648,7 +4701,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "10-20 mg/kg IV load",
         "route": "IV",
         "scalar": "ABW",
@@ -3663,9 +4716,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Neuro/rescue",
-      "Barbiturate anticonvulsant"
-    ]
+      "Barbiturate anticonvulsant",
+      "Neuro/rescue"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "caffeine-citrate",
@@ -3676,7 +4736,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "PDPH adjunct dosing varies; neonatal apnea dosing separate",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -3691,20 +4751,27 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Neuro/rescue",
-      "Methylxanthine"
-    ]
+      "Methylxanthine",
+      "Neuro/rescue"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "racemic-epinephrine",
     "name": "Racemic epinephrine",
     "class": "Alpha/beta agonist aerosol",
     "moa": "Airway mucosal vasoconstriction and bronchodilation.",
-    "category": "Airway/bronchospasm",
+    "category": "Pulmonary",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.5 mL of 2.25% nebulized, dilute per protocol",
         "route": "Neb",
         "scalar": "Fixed",
@@ -3720,19 +4787,27 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Airway/bronchospasm",
-      "Alpha/beta agonist aerosol"
-    ]
+      "Alpha/beta agonist aerosol",
+      "Pulmonary"
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "aminophylline",
     "name": "Aminophylline",
     "class": "Methylxanthine bronchodilator",
     "moa": "PDE inhibition and adenosine antagonism.",
-    "category": "Airway/bronchospasm",
+    "category": "Pulmonary",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Load 5-6 mg/kg IV where used; monitor levels",
         "route": "IV",
         "scalar": "ABW",
@@ -3748,19 +4823,27 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Airway/bronchospasm",
-      "Methylxanthine bronchodilator"
-    ]
+      "Methylxanthine bronchodilator",
+      "Pulmonary"
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "epoprostenol-inhaled",
     "name": "Epoprostenol inhaled",
     "class": "Prostacyclin analog",
     "moa": "Pulmonary vasodilation via prostacyclin receptor/cAMP.",
-    "category": "Pulmonary vasodilator",
+    "category": "Pulmonary",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Inhaled dose per institutional protocol",
         "route": "Inhaled",
         "scalar": "Titrated",
@@ -3775,20 +4858,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Pulmonary vasodilator",
-      "Prostacyclin analog"
-    ]
+      "Prostacyclin analog",
+      "Pulmonary",
+      "Pulmonary vasodilator"
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "iloprost-inhaled",
     "name": "Iloprost inhaled",
     "class": "Prostacyclin analog",
     "moa": "Pulmonary vasodilation via prostacyclin receptor/cAMP.",
-    "category": "Pulmonary vasodilator",
+    "category": "Pulmonary",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Inhaled intermittent dose per protocol",
         "route": "Inhaled",
         "scalar": "Titrated",
@@ -3803,20 +4894,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Pulmonary vasodilator",
-      "Prostacyclin analog"
-    ]
+      "Prostacyclin analog",
+      "Pulmonary",
+      "Pulmonary vasodilator"
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "nitric-oxide-inhaled",
     "name": "Nitric oxide inhaled",
     "class": "Selective pulmonary vasodilator",
     "moa": "Activates soluble guanylate cyclase, increases cGMP.",
-    "category": "Pulmonary vasodilator",
+    "category": "Pulmonary",
     "defaultScalar": "Titrated",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2-40 ppm typical range, titrate to effect",
         "route": "Inhaled",
         "scalar": "Titrated",
@@ -3831,20 +4930,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Pulmonary",
       "Pulmonary vasodilator",
       "Selective pulmonary vasodilator"
-    ]
+    ],
+    "displayClass": "Pulmonary",
+    "common": false,
+    "metabolism": "Agent-specific pulmonary/systemic metabolism.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on route.",
+    "obesityConsiderations": "Nebulized/inhaled doses usually fixed; systemic beta-agonists require caution.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "nifedipine",
     "name": "Nifedipine",
     "class": "Dihydropyridine calcium channel blocker",
     "moa": "L-type calcium channel blockade; vasodilation and tocolysis.",
-    "category": "OB/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "10-20 mg PO for tocolysis/HTN depending protocol",
         "route": "PO",
         "scalar": "Fixed",
@@ -3859,9 +4966,17 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "OB/cardiac",
-      "Dihydropyridine calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Dihydropyridine calcium channel blocker",
+      "OB/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "misoprostol",
@@ -3872,7 +4987,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "600-1000 mcg PR/SL/PO depending PPH protocol",
         "route": "PR/SL/PO",
         "scalar": "Fixed",
@@ -3889,7 +5004,14 @@ window.PERIOP_DRUGS = [
     "tags": [
       "OB uterotonic",
       "Prostaglandin E1 analog"
-    ]
+    ],
+    "displayClass": "OB uterotonic",
+    "common": false,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "dinoprostone",
@@ -3900,7 +5022,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by formulation/protocol",
         "route": "Vaginal",
         "scalar": "Fixed",
@@ -3917,18 +5039,25 @@ window.PERIOP_DRUGS = [
     "tags": [
       "OB uterotonic",
       "Prostaglandin E2"
-    ]
+    ],
+    "displayClass": "OB uterotonic",
+    "common": false,
+    "metabolism": "Hepatic/renal metabolism varies.",
+    "excretion": "Renal/fecal excretion varies.",
+    "duration": "Minutes to hours depending on drug.",
+    "obesityConsiderations": "Usually fixed dosing; obesity does not generally change initial dose.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "phenobarbital-neonatal",
     "name": "Phenobarbital neonatal",
     "class": "Barbiturate anticonvulsant",
     "moa": "GABA-A positive modulation.",
-    "category": "Pediatric/neonatal",
+    "category": "Neuro/rescue",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Neonatal seizure load 20 mg/kg IV typical",
         "route": "IV",
         "scalar": "ABW",
@@ -3943,9 +5072,17 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Pediatric/neonatal",
-      "Barbiturate anticonvulsant"
-    ]
+      "Barbiturate anticonvulsant",
+      "Neuro/rescue",
+      "Pediatric/neonatal"
+    ],
+    "displayClass": "Neuro/rescue",
+    "common": false,
+    "metabolism": "Hepatic or renal metabolism varies.",
+    "excretion": "Renal excretion important for several antiepileptics.",
+    "duration": "Hours to days depending on agent.",
+    "obesityConsiderations": "Weight-based loading usually capped and adjusted for organ dysfunction.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "atipamezole",
@@ -3956,7 +5093,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Not routine human anesthesia drug; include only if institutional use",
         "route": "IM/IV",
         "scalar": "Custom",
@@ -3971,20 +5108,27 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Reversal/rescue",
-      "Alpha-2 antagonist"
-    ]
+      "Alpha-2 antagonist",
+      "Reversal/rescue"
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "sugammadex-16-mg-kg",
     "name": "Sugammadex 16 mg/kg",
     "class": "Selective relaxant binding agent",
     "moa": "Encapsulates rocuronium/vecuronium.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "16 mg/kg for immediate reversal after high-dose rocuronium",
         "route": "IV",
         "scalar": "ABW",
@@ -4000,19 +5144,27 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Neuromuscular/reversal",
+      "Reversal/rescue",
       "Selective relaxant binding agent"
-    ]
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "sugammadex-4-mg-kg",
     "name": "Sugammadex 4 mg/kg",
     "class": "Selective relaxant binding agent",
     "moa": "Encapsulates rocuronium/vecuronium.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "4 mg/kg for deep block reversal when indicated",
         "route": "IV",
         "scalar": "ABW",
@@ -4028,19 +5180,27 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Neuromuscular/reversal",
+      "Reversal/rescue",
       "Selective relaxant binding agent"
-    ]
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "sugammadex-2-mg-kg",
     "name": "Sugammadex 2 mg/kg",
     "class": "Selective relaxant binding agent",
     "moa": "Encapsulates rocuronium/vecuronium.",
-    "category": "Neuromuscular/reversal",
+    "category": "Reversal/rescue",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "2 mg/kg for moderate block reversal when indicated",
         "route": "IV",
         "scalar": "ABW",
@@ -4056,8 +5216,16 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Neuromuscular/reversal",
+      "Reversal/rescue",
       "Selective relaxant binding agent"
-    ]
+    ],
+    "displayClass": "Reversal/rescue",
+    "common": false,
+    "metabolism": "Agent-specific metabolism or binding mechanism.",
+    "excretion": "Often renal excretion or organ-independent redistribution.",
+    "duration": "Usually minutes to hours depending on agent and target.",
+    "obesityConsiderations": "Use capped or indication-specific dosing; obesity scalar varies by drug and urgency.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "albumin-5",
@@ -4068,7 +5236,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Bolus volume by hemodynamics; not weight-based drug dose",
         "route": "IV",
         "scalar": "Custom",
@@ -4083,9 +5251,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Fluid/blood adjunct",
-      "Colloid volume expander"
-    ]
+      "Colloid volume expander",
+      "Fluid/blood adjunct"
+    ],
+    "displayClass": "Fluid/blood adjunct",
+    "common": false,
+    "metabolism": "Intravascular distribution and reticuloendothelial/renal handling.",
+    "excretion": "Not applicable or renal handling varies.",
+    "duration": "Volume effect depends on capillary leak and albumin concentration.",
+    "obesityConsiderations": "Dose to volume status and hemodynamic endpoint, not ABW alone.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "albumin-25",
@@ -4096,7 +5271,7 @@ window.PERIOP_DRUGS = [
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by indication and volume status",
         "route": "IV",
         "scalar": "Custom",
@@ -4113,18 +5288,25 @@ window.PERIOP_DRUGS = [
     "tags": [
       "Fluid/blood adjunct",
       "Hyperoncotic albumin"
-    ]
+    ],
+    "displayClass": "Fluid/blood adjunct",
+    "common": false,
+    "metabolism": "Intravascular distribution and reticuloendothelial/renal handling.",
+    "excretion": "Not applicable or renal handling varies.",
+    "duration": "Volume effect depends on capillary leak and albumin concentration.",
+    "obesityConsiderations": "Dose to volume status and hemodynamic endpoint, not ABW alone.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "potassium-chloride",
     "name": "Potassium chloride",
     "class": "Electrolyte",
     "moa": "Potassium replacement.",
-    "category": "Electrolyte",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "mEq dose/rate by K level, renal function, access, ECG",
         "route": "IV/PO",
         "scalar": "Custom",
@@ -4140,19 +5322,26 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Electrolyte",
-      "Electrolyte"
-    ]
+      "Electrolyte/metabolic"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": false,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "sodium-phosphate",
     "name": "Sodium phosphate",
     "class": "Electrolyte",
     "moa": "Phosphate replacement.",
-    "category": "Electrolyte",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by phosphate level and renal function",
         "route": "IV/PO",
         "scalar": "Custom",
@@ -4168,19 +5357,26 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Electrolyte",
-      "Electrolyte"
-    ]
+      "Electrolyte/metabolic"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": false,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "potassium-phosphate",
     "name": "Potassium phosphate",
     "class": "Electrolyte",
     "moa": "Phosphate and potassium replacement.",
-    "category": "Electrolyte",
+    "category": "Electrolyte/metabolic",
     "defaultScalar": "Custom",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "Dose by phosphate/K level and renal function",
         "route": "IV",
         "scalar": "Custom",
@@ -4196,19 +5392,26 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Electrolyte",
-      "Electrolyte"
-    ]
+      "Electrolyte/metabolic"
+    ],
+    "displayClass": "Electrolyte/metabolic",
+    "common": false,
+    "metabolism": "Physiologic distribution and renal/endocrine handling.",
+    "excretion": "Renal handling central for many agents.",
+    "duration": "Effect depends on deficit, redistribution, and ongoing losses.",
+    "obesityConsiderations": "Dose to labs and protocol; obesity scalar usually secondary.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "acetazolamide",
     "name": "Acetazolamide",
     "class": "Carbonic anhydrase inhibitor",
     "moa": "Inhibits carbonic anhydrase, bicarbonaturia, lowers IOP/CSF production.",
-    "category": "Diuretic/other",
+    "category": "Rescue/other",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "250-500 mg IV/PO depending indication",
         "route": "IV/PO",
         "scalar": "Fixed",
@@ -4223,20 +5426,28 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
+      "Carbonic anhydrase inhibitor",
       "Diuretic/other",
-      "Carbonic anhydrase inhibitor"
-    ]
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "mannitol-20",
     "name": "Mannitol 20%",
     "class": "Osmotic diuretic",
     "moa": "Raises plasma osmolality, reduces brain bulk/IOP.",
-    "category": "Neuro/rescue",
+    "category": "Rescue/other",
     "defaultScalar": "ABW",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "0.25-1 g/kg IV",
         "route": "IV",
         "scalar": "ABW",
@@ -4252,19 +5463,27 @@ window.PERIOP_DRUGS = [
     "sourceStatus": "starter database; verify before use",
     "tags": [
       "Neuro/rescue",
-      "Osmotic diuretic"
-    ]
+      "Osmotic diuretic",
+      "Rescue/other"
+    ],
+    "displayClass": "Rescue/other",
+    "common": false,
+    "metabolism": "Agent-specific metabolism.",
+    "excretion": "Agent-specific excretion.",
+    "duration": "Indication dependent.",
+    "obesityConsiderations": "Use protocol or toxicology guidance; obesity scalar may be irrelevant or drug-specific.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   },
   {
     "id": "clevidipine-infusion",
     "name": "Clevidipine infusion",
     "class": "Dihydropyridine calcium channel blocker",
     "moa": "Ultra-short L-type calcium channel blockade; arterial vasodilation.",
-    "category": "Vasoactive/cardiac",
+    "category": "Antihypertensive/vasodilator",
     "defaultScalar": "Fixed",
     "doses": [
       {
-        "name": "Primary",
+        "name": "Adult",
         "label": "1-2 mg/hr initial, titrate; max per label/protocol",
         "route": "IV",
         "scalar": "Fixed",
@@ -4279,8 +5498,16 @@ window.PERIOP_DRUGS = [
     "millerPage": "page not verified",
     "sourceStatus": "starter database; verify before use",
     "tags": [
-      "Vasoactive/cardiac",
-      "Dihydropyridine calcium channel blocker"
-    ]
+      "Antihypertensive/vasodilator",
+      "Dihydropyridine calcium channel blocker",
+      "Vasoactive/cardiac"
+    ],
+    "displayClass": "Antihypertensive/vasodilator",
+    "common": false,
+    "metabolism": "Hepatic, plasma esterase, or RBC metabolism depending on agent.",
+    "excretion": "Metabolite excretion varies; some accumulate in renal/hepatic dysfunction.",
+    "duration": "Usually minutes for IV titratable agents.",
+    "obesityConsiderations": "Fixed or titrated dosing generally preferred over ABW scaling.",
+    "pediatricDosing": "Peds: pediatric dosing not yet curated. Requires source audit before use."
   }
 ];

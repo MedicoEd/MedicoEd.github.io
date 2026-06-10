@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="construction-banner">UNDER CONSTRUCTION - prototype only, not validated for clinical administration</div>
 <header class="topbar">
   <div>
     <h1>Periop Drug Grid</h1>
-    <p>Adult perioperative medication reference and patient-specific dose calculator. Starter database only.</p>
+    <p>Spreadsheet-style perioperative medication reference with live adult calculations, pediatric notes, pharmacokinetics, and source audit fields.</p>
   </div>
   <div class="top-actions">
     <button id="exportCsv">Export visible CSV</button>
@@ -23,10 +24,10 @@
   <aside class="patient-panel">
     <h2>Patient</h2>
     <div class="form-grid">
-      <label>Age<input id="age" type="number" value="60" min="0" max="120"></label>
+      <label>Age<input id="age" type="number" value="40" min="0" max="120"></label>
       <label>Sex<select id="sex"><option value="male">male</option><option value="female">female</option></select></label>
-      <label>Height cm<input id="height" type="number" value="178" min="80" max="230"></label>
-      <label>Weight kg<input id="weight" type="number" value="90" min="1" max="350" step="0.1"></label>
+      <label>Height cm<input id="height" type="number" value="193" min="80" max="230"></label>
+      <label>Weight kg<input id="weight" type="number" value="100" min="1" max="350" step="0.1"></label>
       <label>SCr mg/dL<input id="scr" type="number" value="1.0" min="0.1" max="15" step="0.01"></label>
       <label>EF %<input id="ef" type="number" value="60" min="5" max="80"></label>
       <label>Renal status<select id="renal"><option value="normal">normal</option><option value="ckd">CKD</option><option value="esrd">ESRD/HD</option><option value="crrt">CRRT</option></select></label>
@@ -70,13 +71,18 @@
             <th class="pin1">#</th>
             <th class="pin2">Drug</th>
             <th>Class</th>
-            <th>Use</th>
             <th>MOA</th>
             <th>Route</th>
-            <th>General dose</th>
+            <th>General adult dose</th>
             <th>Scalar</th>
             <th>Patient dose</th>
+            <th>Rounded dose</th>
             <th>Math</th>
+            <th>Pediatric dosing</th>
+            <th>Metabolism</th>
+            <th>Excretion</th>
+            <th>Duration</th>
+            <th>Obesity considerations</th>
             <th>Flags</th>
             <th>Cautions</th>
             <th>Contraindications</th>
@@ -97,7 +103,7 @@
 </div>
 
 <footer>
-  Prototype for educational and reference use. Not validated for clinical administration. Verify all doses against Miller, package insert, institutional policy, and patient-specific factors.
+  UNDER CONSTRUCTION. Prototype for educational and reference use. Not validated for clinical administration. Verify all doses against Miller, package insert, institutional policy, and patient-specific factors.
 </footer>
 <script src="data.js"></script>
 <script src="app.js"></script>
